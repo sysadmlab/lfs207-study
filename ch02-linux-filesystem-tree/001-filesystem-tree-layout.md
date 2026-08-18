@@ -107,3 +107,11 @@ Using the command **cat** I can look into the operation state of the Wireless Ne
 ### '/sbin' Directory  
 The **/sbin** directory consists of essential binaries for administration tasks such as booting, maintenance, and repair. The commands in this directory require elevated privileges for execution. This directory contains commands such as **fdisk**, **fsck**, **ifconfig**, **ip**, **mkfs**, and **user management** to name a few. Similar to the **/bin** directory this directory does **NOT** contain sub-directories. This directory is **Symbolically Linked** to the **/usr/sbin** directory. </br>  
 <img width="702" height="529" alt="Screenshot From 2026-08-06 23-52-53" src="https://github.com/user-attachments/assets/d750f8f6-7cc8-45b0-a9bf-170f1d3f36e2" />  
+
+
+### '/tmp' Directory
+Although the function of the **/tmp** directory is the same across Linux distributions, the method in which the directory is presented varies significantly between Rocky Linux(Minimal), Ubuntu Server 24.04.4 LTS(Minimal), openSUSE Leap 16(Minimal), and Alma Linux Desktop(GNOME). While openSUSE Leap and Alma Linux mount a RAM-based temporary filesystem **tmpfs** to the mount point **/tmp**, Rocky Linux and Ubuntu treat **/tmp** a part of disk storage. I am aware that the contents of a RAM-based temporary filesystem will vanish the moment the computer is powered off. In case of Rocky Linux and Ubuntu Server, the contents of the **/tmp** directory are cleared after a set number of days. Details can be found in the screenshots below.  
+It is important to note the permissions for the **/tmp** directory. By exectuing the command **ls -ld /tmp** I note that the directory has a "**Sticky Bit**" set.  
+**drwxrwxrwt. 27 root root 580 Aug 18 17:30 /tmp**  
+The **Sticky Bit** allows every user to write to the **/tmp** directory, but for a file to be deleted, the user **MUST** be the **Owner** of the file (or) **Root User**. Any user **CANNOT** delete the contents of any other user. </br>  
+<img width="511" height="98" alt="Screenshot From 2026-08-18 17-35-57" src="https://github.com/user-attachments/assets/a8f0ab10-05be-4a3a-be6b-bf88d5da560c" />  

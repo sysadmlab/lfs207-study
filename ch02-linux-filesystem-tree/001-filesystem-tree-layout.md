@@ -143,5 +143,5 @@ The **/run** directory is a **tmpfs** filesystem in other words a RAM-based temp
 <img width="745" height="248" alt="Screenshot From 2026-08-19 23-21-32" src="https://github.com/user-attachments/assets/33953145-09d7-4fc8-8d72-080abe2a226e" />  
 The **/run** directory consists of many files with the extension **.pid**. These files contain the **Process ID**(PID) of the daemon that created the file. </br>  
 <img width="665" height="513" alt="Screenshot From 2026-08-19 23-30-22" src="https://github.com/user-attachments/assets/7a8c6961-d691-4245-9999-fa1d98dc8316" />  
-The **/run/media/<userid>/<devicename>** directory has been the location where USB Flash drives are mounted. </br>  
+The **/run/media/(userid)/** directory has been the location where USB Flash drives have been mounted. </br>  
 <img width="569" height="278" alt="Screenshot From 2026-08-19 23-32-10" src="https://github.com/user-attachments/assets/0cd218d2-dea3-46a5-897f-7393dca89eb4" />  

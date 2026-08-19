@@ -117,3 +117,10 @@ It is important to note the permissions for the **/tmp** directory. By exectuing
 A **Sticky Bit** is a special permission that allows every user to write to the **/tmp** directory, but for a file to be deleted, the user **MUST** be the **Owner** of the file (or) **Root User**. Any user **CANNOT** delete the contents of any other user. </br>  
 While openSUSE Leap and Alma Linux mount a RAM-based temporary filesystem **tmpfs** to the mount point **/tmp**, Rocky Linux and Ubuntu treat **/tmp** a part of disk storage. I am aware that the contents of a RAM-based temporary filesystem will vanish the moment the computer is powered off. Further research led me to find that in Rocky Linux and Ubuntu Server, the contents of the **/tmp** directory are cleared after a set number of days. Details can be found in the screenshots below: </br>    
 <img width="511" height="98" alt="Screenshot From 2026-08-18 17-35-57" src="https://github.com/user-attachments/assets/a8f0ab10-05be-4a3a-be6b-bf88d5da560c" />  
+<img width="906" height="756" alt="tmpfs-tmp" src="https://github.com/user-attachments/assets/e307dbaa-e67e-4862-b3ad-118826bc0c31" />  
+<img width="765" height="638" alt="clean-tmp" src="https://github.com/user-attachments/assets/493a3c39-a0d9-4083-a722-91e08a8a5561" /> </br>  
+
+
+
+
+

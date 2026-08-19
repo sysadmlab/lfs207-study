@@ -121,6 +121,17 @@ While openSUSE Leap and Alma Linux mount a RAM-based temporary filesystem **tmpf
 <img width="765" height="638" alt="clean-tmp" src="https://github.com/user-attachments/assets/493a3c39-a0d9-4083-a722-91e08a8a5561" /> </br>  
 
 
+### '/usr' Directory  
+Historically, the "**/**" Directory had a set of **/bin**, **/sbin**, **/lib**, and **/lib64** directories. These directories had the minimal set of binaries and libraries to **boot, repair, and recover** a system. This was the reason the **/** directory was called the "**First Hierarchy**". </br>  
+
+The **/usr** directory could reside on a separate filesystem or on the network and could be mounted after the **/** boots the system. So, the **/usr** directory used to contain the set of binaries and libraries that were not required to **boot, repair, and recover** a system. That means **/usr** had a separate **bin**, **sbin**, **lib**, and **lib64** directories. This is the reason the **/usr** directory is called the "**Second Hierarchy**". </br>  
+
+However, it appears that this strategy turned complex and the binaries and libraries have been entirely moved to the respective **/usr/bin**, **/usr/sbin**, **/usr/lib**, and **/usr/lib64**. Currently, the **/bin**, **/sbin**, **/lib**, and **/lib64** serve as **Symbolic Links** to their counterparts under the **/usr** directory. </br>  
+<img width="660" height="493" alt="Screenshot From 2026-08-19 20-13-14" src="https://github.com/user-attachments/assets/1dcbd5dd-1340-4a86-aa02-697100ac0a52" />  
+
+The **/usr** directory contains a directory called **local**, and this **/usr/local** is called the "**Third Hierarchy**". This directory would consist of programs that are manually or locally installed by the System Administrator and that are independent of the package manager. </br>  
+
+The **/usr** directory also contains the **share** directory. This **/usr/share** directory contains files that are read-only, shareable, and independent of system architecture. The **man** pages, package documentation, GNU info documentation, and fonts - for example - reside under the **/usr/share/** directory.  
 
 
-
+### '/var' Directory  

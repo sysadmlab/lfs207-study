@@ -26,7 +26,10 @@ This is not the case with **Ubuntu Server** as **/boot** and **/** are not separ
 <img width="757" height="643" alt="Screenshot From 2026-08-20 19-42-06" src="https://github.com/user-attachments/assets/2162fd65-6d51-4bdd-b2db-74b6c4fc992e" />  
 
 
+
 ## Scenario: As root, cd into /proc and do a directory listing. </br>  
+<img width="1559" height="407" alt="Screenshot From 2026-08-20 19-53-42" src="https://github.com/user-attachments/assets/e5deeb36-3061-448b-8bb9-db1bf3ee0e8a" />  
+
 
 ## Scenario: View the following files:  
 /proc/cpuinfo  
@@ -35,4 +38,6 @@ This is not the case with **Ubuntu Server** as **/boot** and **/** are not separ
 /proc/swaps  
 /proc/version  
 /proc/partitions  
-/proc/interrupts  
+/proc/interrupts  </br>  
+
+## Scenario: Take a peek at any random process directory.  

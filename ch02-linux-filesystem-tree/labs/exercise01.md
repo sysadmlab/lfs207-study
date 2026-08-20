@@ -20,4 +20,6 @@
 The --max-depth=1 is the same as -d 1. The **text book** explanation for -x option "**Stay on one filesystem; don’t look at directories that are not on the / partition. In this case that means ignore /dev /proc /run /sys**".  
 Implementing the "Text Book" solution gives the following output: </br>  
 <img width="508" height="367" alt="Screenshot From 2026-08-20 15-07-21" src="https://github.com/user-attachments/assets/598ae2e5-943a-468d-acd5-b4e006755d3e" />  
-I am surprised that **/boot** has been left out when using the **-x** option. I researched to find why it's the case.  
+I am surprised that **/boot** has been left out when using the **-x** option. I researched to find why it's the case. Because, Rocky Linux uses separate filesystems to mount at the "**/boot**" and the "**/root**" mount points, the **du** command with the **-x** option sees **/boot** as a separate filesystem and does NOT include it calculating disk usage. When we execute the command **df -hT** we can see why **/boot** was left out. </br>  
+<img width="968" height="564" alt="Screenshot From 2026-08-20 19-35-55" src="https://github.com/user-attachments/assets/511ee96a-acbb-46ee-a8e6-8e54d6fa95d2" />  
+

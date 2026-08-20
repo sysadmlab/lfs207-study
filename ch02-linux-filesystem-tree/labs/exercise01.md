@@ -17,6 +17,7 @@
 
 ### Text Book Solution:  
 **sudo du --max-depth=1 -hx /**  
-The --max-depth=1 is the same as -d 1. The -x option means "Stay on one filesystem; don’t look at directories that are not on the / partition. In this case that means ignore /dev /proc /run /sys".  
+The --max-depth=1 is the same as -d 1. The **text book** explanation for -x option "**Stay on one filesystem; don’t look at directories that are not on the / partition. In this case that means ignore /dev /proc /run /sys**".  
 Implementing the "Text Book" solution gives the following output: </br>  
 <img width="508" height="367" alt="Screenshot From 2026-08-20 15-07-21" src="https://github.com/user-attachments/assets/598ae2e5-943a-468d-acd5-b4e006755d3e" />  
+I am surprised that **/boot** has been left out. I researched to find why it's the case. 

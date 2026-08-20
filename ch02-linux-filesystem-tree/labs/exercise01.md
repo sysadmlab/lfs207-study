@@ -21,6 +21,6 @@ The --max-depth=1 is the same as -d 1. The **text book** explanation for -x opti
 Implementing the "Text Book" solution gives the following output: </br>  
 <img width="508" height="367" alt="Screenshot From 2026-08-20 15-07-21" src="https://github.com/user-attachments/assets/598ae2e5-943a-468d-acd5-b4e006755d3e" />  
 I am surprised that **/boot** has been left out when using the **-x** option. I was hoping that only the pseudo-filesystems would be left out with the command I executed. Then, I researched to find why I received this output for the command I ran.  Because, Rocky Linux uses separate filesystems to mount at the "**/boot**" and the "**/**" mount points, the **du** command with the **-x** option sees **/boot** as a separate filesystem and does NOT include it calculating disk usage. When we execute the command **df -hT** we can see why **/boot** was left out. </br>  
-<img width="968" height="564" alt="Screenshot From 2026-08-20 19-35-55" src="https://github.com/user-attachments/assets/511ee96a-acbb-46ee-a8e6-8e54d6fa95d2" />  
+<img width="968" height="563" alt="Screenshot From 2026-08-20 19-35-55" src="https://github.com/user-attachments/assets/0d56fb04-5ece-4a5e-be19-c2e2d1b7437c" />  
 This is not the case with **Ubuntu Server** as **/boot** and **/** are not separate filesystems. </br>  
-<img width="757" height="645" alt="Screenshot From 2026-08-20 19-42-06" src="https://github.com/user-attachments/assets/43cede9b-ef0c-4f63-8695-217c30240e1b" />  
+<img width="757" height="643" alt="Screenshot From 2026-08-20 19-42-06" src="https://github.com/user-attachments/assets/2162fd65-6d51-4bdd-b2db-74b6c4fc992e" />  

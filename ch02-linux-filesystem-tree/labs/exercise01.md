@@ -13,4 +13,10 @@
    <img width="518" height="132" alt="Screenshot From 2026-08-20 14-52-55" src="https://github.com/user-attachments/assets/17bc402d-aa1f-4432-ae84-25bc880ce970" />
 6. The above image is the result. However, I would like to see every directory listed and corresponding size displayed. From trial and error, I figured out that the command **sudo du -hc -d 1 / --exclude=proc** will do the trick. </br>
    <img width="517" height="419" alt="Screenshot From 2026-08-20 14-56-37" src="https://github.com/user-attachments/assets/0823bc05-2521-4eff-87af-88f55154b0f4" />
-7. The option **-c** gives the grand total, **-d** defines the **depth**, that is how deep we want to traverse the filesystem tree. I have set **-d** to **1**.  
+7. The option **-c** gives the grand total, **-d** defines the **depth**, that is how deep we want to traverse the filesystem tree. I have set **-d** to **1**.
+
+### Text Book Solution:  
+**sudo du --max-depth=1 -hx /**  
+The --max-depth=1 is the same as -d 1. The -x option means "Stay on one filesystem; don’t look at directories that are not on the / partition. In this case that means ignore /dev /proc /run /sys".  
+Implementing the "Text Book" solution gives the following output: </br>  
+<img width="508" height="367" alt="Screenshot From 2026-08-20 15-07-21" src="https://github.com/user-attachments/assets/598ae2e5-943a-468d-acd5-b4e006755d3e" />  

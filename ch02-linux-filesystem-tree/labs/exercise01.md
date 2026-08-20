@@ -24,3 +24,15 @@ I am surprised that **/boot** has been left out when using the **-x** option. I 
 <img width="968" height="563" alt="Screenshot From 2026-08-20 19-35-55" src="https://github.com/user-attachments/assets/0d56fb04-5ece-4a5e-be19-c2e2d1b7437c" />  
 This is not the case with **Ubuntu Server** as **/boot** and **/** are not separate filesystems. </br>  
 <img width="757" height="643" alt="Screenshot From 2026-08-20 19-42-06" src="https://github.com/user-attachments/assets/2162fd65-6d51-4bdd-b2db-74b6c4fc992e" />  
+
+
+## Scenario: As root, cd into /proc and do a directory listing. </br>  
+
+## Scenario: View the following files:  
+/proc/cpuinfo  
+/proc/meminfo  
+/proc/mounts  
+/proc/swaps  
+/proc/version  
+/proc/partitions  
+/proc/interrupts  

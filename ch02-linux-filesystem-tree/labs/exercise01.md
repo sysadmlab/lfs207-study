@@ -1,4 +1,4 @@
-# Lab Exercise  
+# Lab 2.1. Sizes of the Default Linux Directories
 
 ## Scenario: Use the du utility to calculate the overall size of each of your system’s top-level directories. </br>  
 

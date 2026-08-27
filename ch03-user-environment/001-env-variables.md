@@ -8,6 +8,7 @@ The following commands without an option list the Variables:
 3. export
 4. set </br>
 
+# How do the commands env, printenv, export, and set differ:  
 1. The **env** command and the **printenv** commands are external commands whereas the **export** command and the **set** command are Shell Built-in commands.  
 2. The **env** and the **printenv** commands display all the **environment** variables.  
 3. The **export** command exports a Shell Variable to Environment Variable. Without any options or arguments, the **export** command lists all the exported variables.  

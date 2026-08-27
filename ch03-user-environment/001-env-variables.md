@@ -32,4 +32,7 @@ For example: HOWSTHEWEATHER=ITSSUNNYOUTSIDE assigns the value **ITSSUNNYOUTSIDE*
 **echo** $HOWSTHEWEATHER will print ITSSUNNYOUTSIDE. </br>  
 <img width="583" height="151" alt="Screenshot From 2026-08-27 16-52-08" src="https://github.com/user-attachments/assets/afaeca80-acc1-43ae-944a-af5877163567" />  
 
+# Distinction between Shell Variable and Environment Variable  
+In the previous step, I have created a variable. This is a Shell Variable - which means that this variable cannot be accessed by Child Processes. I am going to demonstrate that below: </br>  
+<img width="676" height="307" alt="image" src="https://github.com/user-attachments/assets/6378d811-8ee2-4ae8-b9f5-82dbf12640aa" />  
 

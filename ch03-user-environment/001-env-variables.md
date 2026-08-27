@@ -35,4 +35,7 @@ For example: HOWSTHEWEATHER=ITSSUNNYOUTSIDE assigns the value **ITSSUNNYOUTSIDE*
 # Distinction between Shell Variable and Environment Variable  
 In the previous step, I have created a variable. This is a Shell Variable - which means that this variable cannot be accessed by Child Processes. I am going to demonstrate that below: </br>  
 <img width="676" height="307" alt="image" src="https://github.com/user-attachments/assets/6378d811-8ee2-4ae8-b9f5-82dbf12640aa" />  
+In the image above, when I execute **bash** I am opening a new Shell session aka **Child Process**. This **Child Process** does **NOT** understand the variable **HOWSTHEWEATHER** that I created in the other Shell (which is the **Login Shell**). That's why when I **echo "$HOWSTHEWEATHER"** I just see a blank line as result.  
+When I execute **exit**, I am quitting the **Child Process** and going back to the **Login Shell**; now I can print the value of the variable using the **echo** command.  
+**In other words, the variable HOWSTHEWEATHER is a Shell Variable**  
 

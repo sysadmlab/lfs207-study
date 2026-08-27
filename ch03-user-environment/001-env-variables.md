@@ -39,3 +39,9 @@ In the image above, when I execute **bash** I am opening a new Shell session aka
 When I execute **exit**, I am quitting the **Child Process** and going back to the **Login Shell**; now I can print the value of the variable using the **echo** command.  
 **In other words, the variable HOWSTHEWEATHER is a Shell Variable**  
 
+## Turning a Shell Variable to Environment Variable  
+Using the **export** command, I can turn the Shell Variable into Environment Variable. The command **export HOWSTHEWEATHER** will perform this function. </br>  
+<img width="672" height="339" alt="image" src="https://github.com/user-attachments/assets/b3fd9820-ac8a-4f52-9d83-0600c15b1ae3" />  
+Notice that the variable **HOWSTHEWEATHER** is now available for the **Child Process**. It is now an environment variable - this is confirmed by the **env** command at the end.  
+
+

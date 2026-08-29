@@ -10,7 +10,9 @@ The command **ls -la** displays the hidden files in a directory: </br>
 5. Then I will print the contents of the variable **VARNOW**.
 6. Open a child process by executing the **bash** command and print the contents of **VARNOW**
 The image below is a demonstration of the steps mentioned above: </br>
-<img width="1070" height="945" alt="image" src="https://github.com/user-attachments/assets/b3003f9c-8d90-4719-a8d7-86a1009f0b5e" />
+<img width="1070" height="945" alt="image" src="https://github.com/user-attachments/assets/b3003f9c-8d90-4719-a8d7-86a1009f0b5e" /> </br>  
 
+### Side Note:  
+Researching further, I understand that because the .bashrc file applies to **interactive non-login** shell, there may be a situation in which the variable must be created in the .bash_profile (or) .bash_login (or) .profile files. An **interactive** session in one in which the user interacts with the shell by using the command line interface. A **non-interactive** session is one in which the user works with the shell remotely, example SSH.
 
 

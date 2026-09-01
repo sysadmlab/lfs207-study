@@ -12,3 +12,8 @@ After the history is displayed, entering the exclamatory sign and a number - for
 <img width="386" height="381" alt="image" src="https://github.com/user-attachments/assets/a0b37644-97a2-461c-9915-b983b867d79c" />  
 Executing the command **history (n)** where **n** is a number lists the **n** number of commands from the bottom of the history list; Image below </br>  
 <img width="487" height="735" alt="image" src="https://github.com/user-attachments/assets/c6fac956-0462-407c-a556-ff4bd40546e0" />  
+
+### Recalling previous commands  
+1. Using the **Up Arrow Key** and scrolling through the list of commands - starting with the last typed command and moving up the list.
+2. Using **CTRL+R**: This opens a **Reverse Incremental Search** (reverse-i-search) prompt in the command line. At this prompt I can type a few keywords and the last command that has this keyword is listed. At this point I can press **ENTER** to execute that command (or) I can press **CTRL+R** again to move up to the previous match. By pressing **CTRL+C**, I can exit out of this prompt and go back to the usual command prompt.
+<img width="492" height="770" alt="image" src="https://github.com/user-attachments/assets/8eb8ff87-91f1-4505-a871-e3a23ed3b7b4" />  

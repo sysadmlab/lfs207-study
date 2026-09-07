@@ -10,6 +10,10 @@ Executing the **history** command lists all the history items: </br>
 <img width="425" height="380" alt="image" src="https://github.com/user-attachments/assets/4eac0d49-f89a-40ba-ab48-1164dc38c2e9" />  
 After the history is displayed, entering the exclamatory sign and a number - for example !9 - executes the ninth command in the list shown; Image below </br>  
 <img width="386" height="381" alt="image" src="https://github.com/user-attachments/assets/a0b37644-97a2-461c-9915-b983b867d79c" />  
+
+Executing !! (two exclamation marks) in the command line with execute the last executed command </br>  
+<img width="1236" height="389" alt="Screenshot From 2026-09-07 18-48-19" src="https://github.com/user-attachments/assets/0f925fe5-2bbf-4bc7-9e43-46ea8e6d4e62" />  
+
 Executing the command **history (n)** where **n** is a number lists the **n** number of commands from the bottom of the history list; Image below </br>  
 <img width="487" height="735" alt="image" src="https://github.com/user-attachments/assets/c6fac956-0462-407c-a556-ff4bd40546e0" />  
 

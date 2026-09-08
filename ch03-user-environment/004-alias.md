@@ -17,6 +17,6 @@ The command **unalias** can be used to remove an alias. For example, I will use 
 Aliases created in a interactive bash shell will remain until the shell is closed. This means that a child process cannot access the alias that I created. Similar to the environment variables I came across in the earlier lesson, to make an alias persistent, an entry has to be made in the **.bashrc** file. </br>  
 <img width="643" height="433" alt="image" src="https://github.com/user-attachments/assets/bd8778af-3d47-4eaf-a49a-7bf1e1988022" />  
 As can be noted in the image above, I created an alias **hclr**, and, obviously, it was accessible in the current shell. Then I opened a new shell with the command **bash**. The alias **hclr** was **NOT** available for the child process. For this reason, an entry in the **.bashrc** file is carried out.  
-<img width="881" height="622" alt="image" src="https://github.com/user-attachments/assets/c171a36f-9513-42b7-80c4-61eb45176066" />
-
-
+<img width="881" height="622" alt="image" src="https://github.com/user-attachments/assets/c171a36f-9513-42b7-80c4-61eb45176066" />  
+As seen in the image below, I have made an entry in the **.bashrc** file, and I confirm this with the **grep** command. Meanwhile, I ran the **source .bashrc** command to implement the changes I made the the **.bashrc** file. By executing the command **bash** I opened a new shell (a child process) and the alias is accessible by the child process. I have confirmed this using the command **ps -ef**. As I can see the **-bash** with the "hyphen" is my login shell and **bash** is the child process the process IDs will reveal the **parent-child** relationship. </br>  
+<img width="782" height="615" alt="image" src="https://github.com/user-attachments/assets/e296727e-7688-4cc7-a005-d99785f25fa2" />  

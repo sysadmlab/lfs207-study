@@ -12,3 +12,11 @@ As seen in the image above, there were about 100+ items in bash history when I d
 The command **unalias** can be used to remove an alias. For example, I will use the **unalias** command to remove the alias I just created.  
 **unalias hclr** will remove the definition for the alias name **hclr**. </br>  
 <img width="445" height="429" alt="Screenshot From 2026-09-08 19-11-45" src="https://github.com/user-attachments/assets/ad73ceb7-6e35-4317-a46c-4642730bd79d" />  
+
+## Persistent Alias  
+Aliases created in a interactive bash shell will remain until the shell is closed. This means that a child process cannot access the alias that I created. Similar to the environment variables I came across in the earlier lesson, to make an alias persistent, an entry has to be made in the **.bashrc** file. </br>  
+<img width="643" height="433" alt="image" src="https://github.com/user-attachments/assets/bd8778af-3d47-4eaf-a49a-7bf1e1988022" />  
+As can be noted in the image above, I created an alias **hclr**, and, obviously, it was accessible in the current shell. Then I opened a new shell with the command **bash**. The alias **hclr** was **NOT** available for the child process. For this reason, an entry in the **.bashrc** file is carried out.  
+<img width="881" height="622" alt="image" src="https://github.com/user-attachments/assets/c171a36f-9513-42b7-80c4-61eb45176066" />
+
+

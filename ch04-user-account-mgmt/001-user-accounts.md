@@ -10,4 +10,8 @@ The **fifth** field is the **comment** or **GECOS** information - can be used to
 The **sixth** field is the user's **home** directory where the user stores personal data such as documents, music, pictures etc.  
 The **seventh** field is the user's **login shell** which is **/bin/bash** in this case.  
 
+# Commands to determine the Current User:  
+The commands **who**, **whoami**, and **id** will provide information about the current user although the level of information displayed differs among the commands. </br>  
+<img width="1054" height="287" alt="Screenshot From 2026-09-15 17-57-34" src="https://github.com/user-attachments/assets/739c9432-7a57-49b6-847d-d1d9c1ce68db" />  
+
 

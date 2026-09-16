@@ -1,6 +1,6 @@
 # Startup Files Order:  
 
-The file **/etc/profile** is the system-wide login startup file and is read and evaluated once per login shell. </br>  
+The file **/etc/profile** is the system-wide login startup file and is read and evaluated per login shell. </br>  
 <img width="742" height="324" alt="image" src="https://github.com/user-attachments/assets/db1db393-baaf-4223-885d-4c3fb01f381a" /> </br>  
 
 After this, the following startup files are searched for in order. Each file is read once during user login.

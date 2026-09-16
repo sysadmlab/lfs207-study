@@ -10,4 +10,4 @@ After this, the following login shell startup files are searched for in order.
 3. **~/.profile** - read **only** if both **~/.bash_profile** and **~/.bash_login** are absent.  
 
 I note that distributions differ in the login startup files used. </br>  
-
+<img width="618" height="963" alt="image" src="https://github.com/user-attachments/assets/7466ac4a-b82b-4eb9-b701-cf77a45536e4" />  

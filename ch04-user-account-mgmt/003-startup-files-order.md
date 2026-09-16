@@ -3,10 +3,11 @@
 The file **/etc/profile** is the system-wide login startup file and is read and evaluated per login shell. </br>  
 <img width="742" height="324" alt="image" src="https://github.com/user-attachments/assets/db1db393-baaf-4223-885d-4c3fb01f381a" /> </br>  
 
-After this, the following startup files are searched for in order. Each file is read once during user login.
+After this, the following login shell startup files are searched for in order.  
 
-1. **/home/<username>/.bash_profile**
-2. **/home/<username>/.bash_login**
-3. **/home/<username>/.profile**
+1. **~/.bash_profile** - read first if it exists; highest priority; **~/.bash_login** and **~/.profile** are ignored.  
+2. **~/.bash_login** - read **only** if **~/.bash_profile** does **NOT** exist; **~/.profile** is ignored.  
+3. **~/.profile** - read **only** if both **~/.bash_profile** and **~/.bash_login** are absent.  
 
-If the startup file **.bash_profile** is found, it is read, and **~/.bash_login** and **~/.profile** are ignored. I note that distributions differ in the startup file used. </br>  
+I note that distributions differ in the login startup files used. </br>  
+

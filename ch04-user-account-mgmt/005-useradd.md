@@ -11,8 +11,7 @@ The command **sudo useradd -m -c "Technician01" -s "/usr/bin/sh" tech1** does th
 2. forces the creation of a **HOME** directory with the **-m** option
 3. uses the **GECOS** or the comment field with the **-c** option and takes "**Technician01**" as the comment
 4. and sets the **SHELL** at "**/usr/bin/sh**" </br>  
-<img width="747" height="230" alt="Screenshot From 2026-09-18 20-01-46" src="https://github.com/user-attachments/assets/1141936e-0485-48c4-a241-b23e14bd5c89" />  
-The image above shows the creation of user **tech1**
-
+<img width="747" height="230" alt="Screenshot From 2026-09-18 20-01-46" src="https://github.com/user-attachments/assets/1141936e-0485-48c4-a241-b23e14bd5c89" /> </br>
+The image above shows the creation of user **tech1**  
 By default, the files (hidden files) in the **SKEL** directory (Skeleton directory) and copied to the user's home folder. </br>  
 <img width="598" height="207" alt="Screenshot From 2026-09-18 20-08-35" src="https://github.com/user-attachments/assets/8d4078e0-53a2-4699-9b58-4e724ed3a005" />  

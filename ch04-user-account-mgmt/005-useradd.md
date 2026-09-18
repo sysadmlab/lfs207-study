@@ -4,4 +4,5 @@ The basic usage of the command is **sudo useradd <username>**. Obviously, the co
 The default values that apply for the command **useradd** command can be found at two places: 1. **/etc/login.defs** 2. **/etc/default/useradd** </br>  
 <img width="1557" height="630" alt="image" src="https://github.com/user-attachments/assets/bd5e1653-6a2b-4618-8cfc-c0f02b351501" />  
 The image above shows some of the defaults defined in the **/etc/login.defs** file. Likewise, the settings defined in the file **/etc/default/useradd** is shown below: </br>  
+<img width="448" height="274" alt="Screenshot From 2026-09-18 19-56-25" src="https://github.com/user-attachments/assets/47f2a88e-8de9-4585-8382-42b11b4f137a" />  
 

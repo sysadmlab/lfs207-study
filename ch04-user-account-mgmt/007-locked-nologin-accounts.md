@@ -8,7 +8,7 @@ For example: I notice that the accounts **mail** and **sshd** have **/usr/sbin/n
 ### Side Note: I have to use grep -E instead of egrep (as stated in the image above). </br>  
 
 
-# Locked Accounts  
-Locked accounts on the contrary are user accounts that have been out-rightly denied the ability to logon to the system, an action taken by a SysAdmin. The command **chage** is used to work with the **age** fields of an account's password. Obviously, this command requires elevated privileges. Using the **chage** command a SysAdmin can set an account to expire, making login impossible but keeping the account intact.  
+# Locked Accounts    
+Locked accounts on the contrary are user accounts that have been out-rightly denied the ability to logon to the system, an action taken by a SysAdmin. The command **chage** is used to work with the **age** fields of an account's password. Obviously, this command requires elevated privileges. Using the **chage** command a SysAdmin can set an account to expire, making login impossible but keeping the account intact.   
 The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date to a time back in the past (**0 - the first day of the epoch - 01-Jan-1970**) such that the user cannot login to the system unless a SysAdmin allows. </br>  
-
+<img width="1021" height="618" alt="Screenshot From 2026-09-28 13-53-38" src="https://github.com/user-attachments/assets/b6edd6ea-720c-45fb-81c5-fa11fbdaf493" />  

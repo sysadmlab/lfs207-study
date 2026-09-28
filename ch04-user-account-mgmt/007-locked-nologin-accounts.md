@@ -15,9 +15,16 @@ Locked accounts on the contrary are user accounts that have been out-rightly den
 One way to lock an user account is using the command **usermod** with the **-L** option. Executing the command **sudo usermod -L tech01** locks the account of **tech01**. The command **prefixes** the **hashed password** with an **exclamatory sign**(!) such that password login is impossible. The command **sudo usermod -U tech01** will unlock the account of user **tech01**. Image below: </br>  
 <img width="1012" height="861" alt="usermod" src="https://github.com/user-attachments/assets/62505d57-9101-4e18-843d-b3a0a2113a81" />  
 
+## Locking using "passwd" command:  
+Another way to lock an user account is the use of **passwd** command with the **-l** option. Executing the command **sudo passwd -l tech01** locks the account of **tech01**. The command **prefixes** the **hashed password** with an **exclamatory sign**(!) such that password login is impossible. The command **sudo passwd -u tech01** will unlock the account of user **tech01**. Image below: </br>  
+<img width="1012" height="861" alt="passwd" src="https://github.com/user-attachments/assets/6bc0b348-6761-46c2-9d3b-564e9288cc65" />  
 
-
-
-The command **chage** is used to work with the **age** fields of an account's password. Obviously, this command requires elevated privileges. Using the **chage** command a SysAdmin can set an account to expire, making login impossible but keeping the account intact.   
-The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date to a time back in the past (**0 - the first day of the epoch - 01-Jan-1970**) such that the user cannot login to the system unless a SysAdmin allows. </br>  
+## Expiring an user account using the "chage" command:  
+The command **chage** is used to work with the **age** fields of an account's password. Using the **chage** command a SysAdmin can set an account to expire (dsable), but keeping the account intact.   
+The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date to a time back in the past (**0 - the first day of the epoch - 01-Jan-1970**) such that the user's account is disabled until a SysAdmin enables the account again.  
+Disabling an Account: </br>  
 <img width="1021" height="618" alt="Screenshot From 2026-09-28 13-53-38" src="https://github.com/user-attachments/assets/b6edd6ea-720c-45fb-81c5-fa11fbdaf493" />  
+
+Enabling an Account: </br>  
+<img width="1018" height="501" alt="chage 02" src="https://github.com/user-attachments/assets/42e8c831-0618-46d7-b22a-3738bb857680" />  
+

@@ -17,7 +17,7 @@ One way to lock an user account is using the command **usermod** with the **-L**
 
 ## Locking using "passwd" command:  
 Another way to lock an user account is the use of **passwd** command with the **-l** option. Executing the command **sudo passwd -l tech01** locks the account of **tech01**. The command **prefixes** the **hashed password** with an **exclamatory sign**(!) such that password login is impossible. The command **sudo passwd -u tech01** will unlock the account of user **tech01**. Image below: </br>  
-<img width="1012" height="861" alt="passwd" src="https://github.com/user-attachments/assets/6bc0b348-6761-46c2-9d3b-564e9288cc65" />  
+<img width="1012" height="861" alt="001" src="https://github.com/user-attachments/assets/2b813a0e-3c5b-4747-aa0f-8a6395c71f66" />  
 
 ## Expiring an user account using the "chage" command:  
 The command **chage** is used to work with the **age** fields of an account's password. Using the **chage** command a SysAdmin can set an account to expire (disable), but keeping the account intact.   

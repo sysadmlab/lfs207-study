@@ -24,7 +24,7 @@ The command **chage** is used to work with the **age** fields of an account's pa
 The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date to a time back in the past (**0 - the first day of the epoch - 01-Jan-1970**) such that the user's account is disabled until a SysAdmin enables the account again. </br>  
 
 ### Disabling an Account with chage: </br>  
-<img width="1021" height="618" alt="Screenshot From 2026-09-28 13-53-38" src="https://github.com/user-attachments/assets/b6edd6ea-720c-45fb-81c5-fa11fbdaf493" />  
+<img width="1021" height="618" alt="001" src="https://github.com/user-attachments/assets/fb5693fa-eee4-49f7-9155-d693add9ccd7" />  
 
 ### Enabling an Account with chage: </br>  
 <img width="1018" height="501" alt="chage 02" src="https://github.com/user-attachments/assets/42e8c831-0618-46d7-b22a-3738bb857680" />  

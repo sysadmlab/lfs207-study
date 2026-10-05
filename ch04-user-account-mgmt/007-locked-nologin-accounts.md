@@ -27,5 +27,5 @@ The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date
 <img width="1021" height="618" alt="001" src="https://github.com/user-attachments/assets/fb5693fa-eee4-49f7-9155-d693add9ccd7" />  
 
 ### Un-expire an account with chage: </br>  
-The command **sudo chage -E -1 tech01** clears the expiry field and un-expires the user account **tech01**. The **-1** means that the account never expires.
+The command **sudo chage -E -1 tech01** clears the expiry field and un-expires the user account **tech01**. The **-1** means that the account never expires. </br>  
 <img width="1018" height="501" alt="001" src="https://github.com/user-attachments/assets/76298bdf-2113-456f-8e26-acd501014401" />  

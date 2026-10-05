@@ -14,4 +14,4 @@ When the date is set in the past, the account is considered expired. Setting thi
 
 <img width="1009" height="200" alt="Screenshot From 2026-10-05 22-01-50" src="https://github.com/user-attachments/assets/6269ade3-0a47-441e-a4a3-84b07611d039" />  
 
-In the above image, let's consider the 3rd **field** which is the **Last Password Change**. It has a value 20724 - which is 20724 days since 01 January 1970. This number denotes Monday 28th September 2026 - the day the account **tech01**'s password was last changed.  
+In the above image, let's consider the 3rd field which is the **Last Password Change**. It has a value 20724 - which is 20724 days since 01 January 1970. This number denotes Monday 28th September 2026 - the day the account **tech01**'s password was last changed.  

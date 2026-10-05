@@ -13,7 +13,7 @@ Locked accounts on the contrary are user accounts that have been out-rightly den
 
 ## Locking using "usermod" command:  
 One way to lock an user account is using the command **usermod** with the **-L** option. Executing the command **sudo usermod -L tech01** locks the account of **tech01**. The command **prefixes** the **hashed password** with an **exclamatory sign**(!) such that password login is impossible. The command **sudo usermod -U tech01** will unlock the account of user **tech01**. Image below: </br>  
-<img width="1012" height="861" alt="usermod" src="https://github.com/user-attachments/assets/62505d57-9101-4e18-843d-b3a0a2113a81" />  
+<img width="1012" height="861" alt="001" src="https://github.com/user-attachments/assets/eb3b4ea1-5d21-4d12-afec-874b35c4565d" />  
 
 ## Locking using "passwd" command:  
 Another way to lock an user account is the use of **passwd** command with the **-l** option. Executing the command **sudo passwd -l tech01** locks the account of **tech01**. The command **prefixes** the **hashed password** with an **exclamatory sign**(!) such that password login is impossible. The command **sudo passwd -u tech01** will unlock the account of user **tech01**. Image below: </br>  

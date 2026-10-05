@@ -23,8 +23,9 @@ Another way to lock an user account is the use of **passwd** command with the **
 The command **chage** is used to work with the **age** fields of an account's password. Using the **chage** command a SysAdmin can set an account to expire (disable), but keeping the account intact.   
 The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date to a time back in the past (**0 - the first day of the epoch - 01-Jan-1970**) such that the user's account is disabled until a SysAdmin enables the account again. </br>  
 
-### Disabling an Account with chage: </br>  
+### Set an account to expire with chage: </br>  
 <img width="1021" height="618" alt="001" src="https://github.com/user-attachments/assets/fb5693fa-eee4-49f7-9155-d693add9ccd7" />  
 
-### Enabling an Account with chage: </br>  
+### Un-expire an account with chage: </br>  
+The command **sudo chage -E -1 tech01** clears the expiry field and un-expires the user account **tech01**. The **-1** means that the account never expires.
 <img width="1018" height="501" alt="001" src="https://github.com/user-attachments/assets/76298bdf-2113-456f-8e26-acd501014401" />  

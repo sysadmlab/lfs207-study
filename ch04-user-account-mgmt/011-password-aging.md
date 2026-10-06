@@ -5,4 +5,7 @@ The command **chage** resides at **/usr/bin/chage** and similar to the **/usr/bi
 As seen in the image below, **/usr/bin/chage** has **setuid** bit enabled in **Rocky Linux** and **setgid** bit enabled in **Ubuntu Server**. </br>  
 <img width="598" height="306" alt="image" src="https://github.com/user-attachments/assets/b5538970-a707-4533-a671-8b14ff72ba4c" />  
 The **setuid**/**setgid** allows the effective UID to be **root**'s UID when an normal user executes the command **chage**.  
-Using the elevated privileges the password aging fields in the **/etc/shadow** can be modified.  
+Using the elevated privileges the password aging fields in the **/etc/shadow** can be modified. </br>  
+<img width="735" height="242" alt="image" src="https://github.com/user-attachments/assets/ba3d0973-1cde-4d26-8fd9-f070bb0daa15" />  
+As shown in the above image, I have used the **chage** command to modify the **password warn days** and the **account expiry date**.  
+

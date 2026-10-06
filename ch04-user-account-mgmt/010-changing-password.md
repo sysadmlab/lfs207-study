@@ -5,5 +5,6 @@ The binary for the command **passwd** is located at **/usr/bin/passwd** and the 
 As seen in the image above, the **setuid** bit is enabled for the **/usr/bin/passwd** binary file, marked by **s** in user permissions. This file is owned by user **root** and group **root**.  
 The **Others** group has **read** and **execute** permissions on this binary. This means that when a normal user executes **passwd** the command executes with the user's real UID; However, since
 **setuid** is enabled, the effective UID becomes the root's UID. So this is why the user is able to change the password in the **/etc/shadow** file.  
-I have to mention it because the **/etc/shadow** file has **000** permissions set in **Rocky Linux** and **640** permissions set for **root:shadow** in Ubuntu Server. </br>  
+I have to mention it because the **/etc/shadow** file has **000** permissions set in **Rocky Linux** and **640** permissions set for **root:shadow** in Ubuntu Server.  
+This means that only **root** can modify this file, and that is the reason why the command **passwd** can **setuid** bit enabled. </br>  
 <img width="560" height="220" alt="image" src="https://github.com/user-attachments/assets/ed0bce8c-ea98-42c5-aec4-d270644bd8c1" />  

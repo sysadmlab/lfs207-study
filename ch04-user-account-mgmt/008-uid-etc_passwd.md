@@ -8,6 +8,6 @@ The file **login.defs** defines the miminum and the maximum range for UIDs for *
 ### Note:  
 I assumed that I would find the **login.defs** file under **/etc** in openSUSE Leap 16, however to my suprise, it is under **/usr/etc/login.defs**. On further research, I learned that **vendor-shipped** defaults live under **/usr/etc** and user-created files are under **/etc**. </br>  
 
-The images below are screenshots of the minimum and maximum range for Rocky Linux, Ubuntu Server, and openSUSE Leap 16 respectively. </br>  
+The images below are screenshots of the minimum and maximum range for **Rocky Linux**, **Ubuntu Server**, and **openSUSE Leap 16** respectively. </br>  
 <img width="677" height="793" alt="1" src="https://github.com/user-attachments/assets/e21abc1a-f710-47dc-b49e-9e4cf71daa91" />  
 While UID minimum and the maximum remain the same for user accounts, the distributions differ in the range for the system accounts.  

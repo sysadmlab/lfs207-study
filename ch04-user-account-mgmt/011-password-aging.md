@@ -11,6 +11,5 @@ The **setuid**/**setgid** allows the effective UID to be **root**'s UID when an 
 Using the elevated privileges the password aging fields in the **/etc/shadow** can be modified.  
 
 ## Using the command **chage**  
-<img width="735" height="242" alt="image" src="https://github.com/user-attachments/assets/ba3d0973-1cde-4d26-8fd9-f070bb0daa15" />    
+<img width="735" height="242" alt="image" src="https://github.com/user-attachments/assets/ba3d0973-1cde-4d26-8fd9-f070bb0daa15" /> </br>  
 As shown in the above image, I have used the **chage** command to modify the **password warn days** and the **account expiry date**.  
-

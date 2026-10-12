@@ -26,4 +26,6 @@ For the sake of ease, I will use the command **ssh-copy-id**. </br>
 <img width="1137" height="677" alt="image" src="https://github.com/user-attachments/assets/98394546-0406-4598-addb-4e562884f626" /> </br>
 4. This is a sign that the **Public** key has been copied and SSH now wants to use **Key-based** Authentication to establish the connection.
 5. Once connected, I browse the **.ssh** directory to find the file **authorized_keys**. This file contains the **Public** key from my Alma Linux desktop. </br>
-<img width="1147" height="890" alt="image" src="https://github.com/user-attachments/assets/9a44c77e-ad3b-4dc8-a432-90f5fbdd1a30" />  
+<img width="1147" height="890" alt="image" src="https://github.com/user-attachments/assets/9a44c77e-ad3b-4dc8-a432-90f5fbdd1a30" /> </br>
+6. From this point on, when I connect to the remote server, I am **NOT** prompted to enter a password; instead **Key-based** authentication takes precedence. </br>
+<img width="906" height="223" alt="Screenshot From 2026-10-12 06-55-48" src="https://github.com/user-attachments/assets/510b2815-477f-471b-8fbc-7327703cd88c" />  

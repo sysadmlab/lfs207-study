@@ -16,3 +16,7 @@ Now, I can perform two actions to transfer the Public key to the remote server; 
 program to transfer the key to the remote server (**OR**) the less-easy way of opening the Public key (**.pub** file), copying the key, connecting to the remote server, creating a file
 named **authorized keys**, and appending the copied Public key to the file.  
 For the sake of ease, I will use the command **ssh-copy-id**. </br>  
+
+# ssh-copy-id Command:  
+If I see the **man** page for the command **ssh-copy-id**, using the option **-i** I can specify the file that needs to be copied over. </br>  
+<img width="903" height="549" alt="image" src="https://github.com/user-attachments/assets/0cc1fd06-e20b-47b1-bd1c-1d47cae327a8" />

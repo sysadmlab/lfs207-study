@@ -19,8 +19,8 @@ For the sake of ease, I will use the command **ssh-copy-id**. </br>
 
 # ssh-copy-id Command:  
 1. If I see the **man** page for the command **ssh-copy-id**, using the option **-i** I can specify the file that needs to be copied over. </br>  
-<img width="903" height="549" alt="image" src="https://github.com/user-attachments/assets/0cc1fd06-e20b-47b1-bd1c-1d47cae327a8" />  
+<img width="903" height="549" alt="image" src="https://github.com/user-attachments/assets/0cc1fd06-e20b-47b1-bd1c-1d47cae327a8" /> </br>  
 2. Then, I use the command **ssh-copy-id** with the **-i** option to copy the Public key - as seen in the image below: </br>
-<img width="1108" height="352" alt="image" src="https://github.com/user-attachments/assets/136f62a2-d6ec-481b-9130-811e2f26fa34" />
+<img width="1108" height="352" alt="image" src="https://github.com/user-attachments/assets/136f62a2-d6ec-481b-9130-811e2f26fa34" /> </br>  
 3. 
 

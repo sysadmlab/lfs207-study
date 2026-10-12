@@ -9,5 +9,10 @@ The Public and Private keys are linked together. While there is no harm in shari
 In the image above, the file **rock9_id_ed25519.pub** is the Public key: the **.pub** extension denotes that. The file **rock9_id_ed25519** is the Private key and must **NEVER** be shared.  
 In order to put Key-based Authentication to use, I have to share the Public key with the remote computer. To achieve this, I can use the command **ssh-copy-id**.  
 The Public key is appended to a file named **authorized keys** under the directory **/home/<connectinguser>/.ssh/** of the remote computer accepting the SSH connection.  
-So in my case, I would expect to find the '**authorized keys**' under the directory **/home/sshtstusr/.ssh** in the Rocky Linux SSH Server I am connecting to. </br>  
-<img width="683" height="633" alt="image" src="https://github.com/user-attachments/assets/cde06436-fa38-49e4-a310-6983ec6cc262" />
+So in my case, I would expect to find the '**authorized keys**' under the directory **/home/sshtstusr/.ssh** in the Rocky Linux SSH Server I am connecting to.  
+At this point, I have connected to the remote server via SSH and I note that **.ssh** directory does NOT exist. Hence, I am creating the directory, as shown below, and logging out. </br>  
+<img width="683" height="633" alt="image" src="https://github.com/user-attachments/assets/3311d197-a05c-4273-82cf-6b02f37fad68" />  
+Now, I can perform two actions to transfer the Public key to the remote server; The easiest way is to use the **ssh-copy-id** command in my Alma Linux desktop and allow the 
+program to transfer the key to the remote server (**OR**) the less-easy way of opening the Public key (**.pub** file), copying the key, connecting to the remote server, creating a file
+named **authorized keys**, and appending the copied Public key to the file.  
+For the sake of ease, I will use the command **ssh-copy-id**. </br>  

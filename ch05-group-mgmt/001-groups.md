@@ -1,6 +1,6 @@
 # Groups  
 A user account in Linux has **one Primary Group** and this group is listed in the **fourth** field of **/etc/passwd** file.  
-A user account can become to one or more **Secondary Groups** although there is a practical limit of **16**. </br>  
+A user account can become a member to one or more **Secondary Groups** although there is a practical limit of **16**. </br>  
 
 Groups and related information can be found in the **/etc/group** file. </br>  
 <img width="344" height="265" alt="Screenshot From 2026-10-12 18-45-34" src="https://github.com/user-attachments/assets/5ef0fc68-c986-45de-a666-45b7eed5f9e2" />  

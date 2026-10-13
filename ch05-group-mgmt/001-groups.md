@@ -5,7 +5,7 @@ The above image is the screenshot of a part of the **/etc/group** file. Each rec
 The first field is the **group name**, the second field is the **password placeholder**, the third field is the **group identified (GID)**, and the fourth is the **group members field**.  
 
 # /etc/passwd and /etc/group  
-<img width="416" height="130" alt="Screenshot From 2026-10-13 08-56-37" src="https://github.com/user-attachments/assets/44c096e4-b540-4638-90a3-141a03a9c688" />  
+<img width="416" height="130" alt="Screenshot From 2026-10-13 08-56-37" src="https://github.com/user-attachments/assets/44c096e4-b540-4638-90a3-141a03a9c688" /> </br>  
 The image above is a screenshot of a particular item in the **/etc/passwd** file. The user account **as** has **UID** 1000 and **GID** 1000.  In this case, **GID** 1000 is 
 both the **Primary Group** and the **User Private Group** for the user **as**.  
 In the **/etc/group** file, the group **as** with **GID** 1000 does NOT have any members, particularly the user **as**. This is because only **Supplementary (Secondary) group membership** is listed here.  

@@ -21,6 +21,13 @@ When I create Directories and Files, the items are owned by my user account (**U
 In this case my user account is **as** and my primary group is **as**.  
 
 # Listing group membership  
+### groups command  
 The command **groups** lists the groups a user belongs to. Executing the **groups** command without an argument provides group membership for the current user. **groups tech01** provides information
 on the groups **tech01** belongs to. </br>  
 <img width="404" height="337" alt="image" src="https://github.com/user-attachments/assets/ef1f7d26-fe4f-428d-ac73-808d99d664ed" />  
+
+### id command  
+The command **id** can be used to view the group memberships of an account. As shown in the image below, the command **id qemu** prints the **uid**, **gid**, and the **groups** the
+user **qemu** belongs to.  
+The command **id** with the **-G** option prints the **group IDs (numbers)**. When the **-G** option is combined with the **-n** option the command prints the names of the groups. </br>  
+<img width="572" height="335" alt="image" src="https://github.com/user-attachments/assets/3e30ec6a-c05f-45ff-b38b-d1a4c16995f1" />  

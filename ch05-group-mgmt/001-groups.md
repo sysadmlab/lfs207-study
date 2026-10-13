@@ -14,3 +14,8 @@ both the **Primary Group** and the **User Private Group** for the user **as**. <
 In the **/etc/group** file, the group **as** with **GID** 1000 does NOT have any members, particularly it does NOT list user **as** as its member.  
 This is because only **Secondary group membership** is listed here. **Primary Groups** are NOT listed in the **/etc/group** file - as shown in the image below. </br>  
 <img width="416" height="130" alt="Screenshot From 2026-10-13 08-58-22" src="https://github.com/user-attachments/assets/cb8f1464-b3c8-458c-8a73-0a9c1c5ef3fc" />  
+
+# Directories and Files  
+When I create Directories and Files, the items are owned by my user account (**UID**) and my primary group (**GID**). </br>  
+<img width="477" height="150" alt="Screenshot From 2026-10-13 10-23-19" src="https://github.com/user-attachments/assets/5e6821f9-25dd-4d8c-a5ac-2453c4761eb3" />  
+In this case my user account is **as** and my primary group is **as**.  

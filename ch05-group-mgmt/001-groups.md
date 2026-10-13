@@ -20,7 +20,7 @@ When I create Directories and Files, the items are owned by my user account (**U
 <img width="477" height="150" alt="image" src="https://github.com/user-attachments/assets/c9afac6b-5837-4cfb-89e2-36aff7e34c44" />  
 In this case my user account is **as** and my primary group is **as**.  
 
-# groups command  
+# Listing group membership  
 The command **groups** lists the groups a user belongs to. Executing the **groups** command without an argument provides group membership for the current user. **groups tech01** provides information
 on the groups **tech01** belongs to. </br>  
 <img width="404" height="337" alt="image" src="https://github.com/user-attachments/assets/ef1f7d26-fe4f-428d-ac73-808d99d664ed" />  

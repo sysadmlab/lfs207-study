@@ -17,5 +17,5 @@ This is because only **Secondary group membership** is listed here. **Primary Gr
 
 # Directories and Files  
 When I create Directories and Files, the items are owned by my user account (**UID**) and my primary group (**GID**). </br>  
-<img width="477" height="150" alt="Screenshot From 2026-10-13 10-23-19" src="https://github.com/user-attachments/assets/5e6821f9-25dd-4d8c-a5ac-2453c4761eb3" />  
+<img width="477" height="150" alt="image" src="https://github.com/user-attachments/assets/c9afac6b-5837-4cfb-89e2-36aff7e34c44" />  
 In this case my user account is **as** and my primary group is **as**.  

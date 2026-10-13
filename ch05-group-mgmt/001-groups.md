@@ -7,7 +7,7 @@ The first field is the **group name**, the second field is the **password placeh
 # /etc/passwd and /etc/group  
 <img width="416" height="130" alt="Screenshot From 2026-10-13 08-56-37" src="https://github.com/user-attachments/assets/44c096e4-b540-4638-90a3-141a03a9c688" /> </br>  
 The image above is a screenshot of a particular item in the **/etc/passwd** file. The user account **as** has **UID** 1000 and **GID** 1000.  In this case, **GID** 1000 is 
-both the **Primary Group** and the **User Private Group** for the user **as**.  
+both the **Primary Group** and the **User Private Group** for the user **as**. </br>  
 In the **/etc/group** file, the group **as** with **GID** 1000 does NOT have any members, particularly the user **as**. This is because only **Supplementary (Secondary) group membership** is listed here.  
 The account **as** has the group **as** as its **Primary Group**, and **Primary Groups** are NOT listed in the **Secondary group members** field - as shown in the image below. </br>  
 <img width="416" height="130" alt="Screenshot From 2026-10-13 08-58-22" src="https://github.com/user-attachments/assets/cb8f1464-b3c8-458c-8a73-0a9c1c5ef3fc" />  

@@ -28,4 +28,9 @@ The command **sudo chage -E 0 tech01** sets user **tech01** password expiry date
 
 ### Un-expire an account with chage: </br>  
 The command **sudo chage -E -1 tech01** clears the expiry field and un-expires the user account **tech01**. The **-1** means that the account never expires. </br>  
-<img width="1018" height="501" alt="001" src="https://github.com/user-attachments/assets/76298bdf-2113-456f-8e26-acd501014401" />  
+<img width="1018" height="501" alt="001" src="https://github.com/user-attachments/assets/76298bdf-2113-456f-8e26-acd501014401" /> </br>  
+
+## Note: When password has NOT been set  
+An exclamatory symbol (!) appears at the password field in the **/etc/shadow** field when a password is **NOT** set for a user account.  
+In the image below, a user account has been created and the password has **NOT** been set yet. Hence, **ONLY** the exclamatory symbol (!) fills the password field. </br>  
+<img width="706" height="124" alt="image" src="https://github.com/user-attachments/assets/96022632-4997-4aec-aa8b-a9d40017e3bc" />  

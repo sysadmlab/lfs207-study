@@ -23,5 +23,9 @@ Then I'm going to change the **GID** of the group. </br>
 Using the **-g** option with the **groupmod** command, I have modified the group identifier **GID** of the group **ithelpdesk** </br>  
 <img width="883" height="637" alt="image" src="https://github.com/user-attachments/assets/e4f2f014-f7da-4d05-907f-648e97241b45" />  
 
-## modifying membership with usermod command  
-
+## Modifying membership with usermod command  
+I can also use the **usermod** command to add a user to a group. Using the option **-G** I can provide a list of supplementary groups to which the user will be added.  
+### Note of caution  
+While using the **-G** option, it is necessary to use the **-a** (append) option. If the **-a** option is not used the command will erase the **current** supplementary group list and consider
+only those groups that are provided with the **-G** option. </br>  
+<img width="509" height="280" alt="image" src="https://github.com/user-attachments/assets/5086e9bb-b9d5-447e-a98a-7e919d4942f0" />  

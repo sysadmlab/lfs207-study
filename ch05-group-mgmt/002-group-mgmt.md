@@ -29,3 +29,9 @@ I can also use the **usermod** command to add a user to a group. Using the optio
 While using the **-G** option, it is necessary to use the **-a** (append) option. If the **-a** option is not used the command will erase the **current** supplementary group list and consider
 only those groups that are provided with the **-G** option. </br>  
 <img width="509" height="280" alt="image" src="https://github.com/user-attachments/assets/5086e9bb-b9d5-447e-a98a-7e919d4942f0" />  
+
+## groupdel command  
+The **groupdel** command is used to delete a group and its simplest usage is **sudo groupdel groupname**.  
+I am going to use the **groupdel** command to delete the **ithelpdesk** group I created. </br>  
+<img width="509" height="517" alt="image" src="https://github.com/user-attachments/assets/eb7ce093-bf10-4887-b3bc-105893562f6a" />  
+Deleting a group also removes its membership list.  

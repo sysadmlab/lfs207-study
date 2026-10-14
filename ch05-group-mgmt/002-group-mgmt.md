@@ -21,3 +21,6 @@ As the first task, I am going to add the user **tech01** to the group **ithelpde
 
 Using the **-g** option with the **groupmod** command, I have modified the group identifier **GID** of the group **ithelpdesk** </br>  
 <img width="883" height="637" alt="image" src="https://github.com/user-attachments/assets/e4f2f014-f7da-4d05-907f-648e97241b45" />  
+
+## modifying membership with usermod command  
+

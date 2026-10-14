@@ -19,6 +19,5 @@ Using the **groupmod** command, I can **append** users to a group, **change GID*
 As the first task, I am going to add the user **tech01** to the group **ithelpdesk**. Then I'm going to change the **GID** of the group. </br>  
 <img width="887" height="457" alt="image" src="https://github.com/user-attachments/assets/cd8c6ef8-eb54-4887-bdd2-efaeaebc1a91" />  
 
-<img width="883" height="637" alt="image" src="https://github.com/user-attachments/assets/e4f2f014-f7da-4d05-907f-648e97241b45" />
-
-
+Using the **-g** option with the **groupmod** command, I have modified the group identifier **GID** of the group **ithelpdesk** </br>  
+<img width="883" height="637" alt="image" src="https://github.com/user-attachments/assets/e4f2f014-f7da-4d05-907f-648e97241b45" />  

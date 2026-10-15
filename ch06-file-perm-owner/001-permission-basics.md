@@ -15,4 +15,3 @@ In the image below, the **User Owner** has **Read and Write** permissions, the *
 
 In the image below the **root** **root** correspond to the **user owner** and the **group owner** for the items.  
 <img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/1946e6b3-6b05-434c-b013-6615315d65fc" />  
-

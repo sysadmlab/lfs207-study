@@ -13,6 +13,6 @@ A dash (**-**) denotes that the specific permission is not available for that pa
 In the image below, the **User Owner** has **Read and Write** permissions, the **Group Owner** has only **Read** permission, and **Others/World** has only **Read** permission.  </br>  
 <img width="514" height="164" alt="image" src="https://github.com/user-attachments/assets/91cf9a44-1346-4c6c-89de-9451c4b95b6b" />  
 
-In the image below the **root** **root** denote the **user owner** and the **group owner** for the items. </br>  
+In the image below the **root** **root** correspond to the **user owner** and the **group owner** for the items.  
 <img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/1946e6b3-6b05-434c-b013-6615315d65fc" />  
 

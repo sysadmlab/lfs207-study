@@ -5,5 +5,8 @@ For a directory, the first placeholder is the alphabet **d** denoting a director
 While there are other **types of files**, **d** for directory and **-** for a regular file are the most common ones I have noticed. </br>  
 
 Following the **file type** placeholder is the set of 9 placeholders that define the permissions for the directory/file. These 9 placeholders are split into sets of 3, one set each
-for **Owner**, **Group**, and **Others(World)**. The permissions **read**, **write**, and **execute** are assigned to each group as shown below. </br>  
+for **Owner** also known as **User Owner**, **Group** also known as **Group Owner**, and **Others** also known as **World**. The permissions **read**, **write**, and **execute** are assigned to each group as shown below. </br>  
 <img width="514" height="164" alt="image" src="https://github.com/user-attachments/assets/8ceabeea-ac67-4095-b085-2b84dd71bb98" />  
+
+In the image below the **root** **root** denote the **user owner** and the **group owner** for the items </br>  
+<img width="592" height="164" alt="image" src="https://github.com/user-attachments/assets/66229583-6f09-464d-80a9-44d60a6eb157" />  

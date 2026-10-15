@@ -9,4 +9,5 @@ for **Owner** also known as **User Owner**, **Group** also known as **Group Owne
 <img width="514" height="164" alt="image" src="https://github.com/user-attachments/assets/8ceabeea-ac67-4095-b085-2b84dd71bb98" />  
 
 In the image below the **root** **root** denote the **user owner** and the **group owner** for the items </br>  
-<img width="592" height="164" alt="image" src="https://github.com/user-attachments/assets/66229583-6f09-464d-80a9-44d60a6eb157" />  
+<img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/1946e6b3-6b05-434c-b013-6615315d65fc" />  
+

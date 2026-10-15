@@ -19,5 +19,11 @@ Permissions are examined from **left to right**. For instance, when a user wants
 2. the **Group Owner** permissions are examined next - is the requesting user part of the **Group Owner**? If **YES** those permissions are applied. If **NO**  
 3. the **Others/World** permission is applied.  
 
+### Scenario:  
 In the image below the **root** **root** correspond to the **user owner** and the **group owner** for the items.  
 <img width="545" height="153" alt="image" src="https://github.com/user-attachments/assets/1946e6b3-6b05-434c-b013-6615315d65fc" />  
+1. If user **tech01** tries to access the **/etc** directory - he is **NOT** the **User Owner** and he is **NOT** the **Group Owner**.  
+Hence, for **tech01**, **Others** permission is applied. **Others** can **Read** and **Execute** which means **tech01** can **change directory (cd command)** to **/etc**
+and **tech01** can **list contents (ls command)** of the directory. </br>  
+2. If user **tech01** tries to access the **/etc/passwd** file - he is **NOT** the **User Owner** and he is **NOT** the **Group Owner**.  
+Hence, for **tech01**, **Others** permission is applied. **Others** can **Read** the file - so **tech01** can use the commands **cat**, **less**, or **grep** for **read** or search for contents.  

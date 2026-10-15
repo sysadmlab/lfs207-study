@@ -21,3 +21,16 @@ Likewise, chmod **o-rx** removes **Read and Execute** for **Others**. chmod **g+
 ### Note
 In the above scenario, the user **tmpusr01** has provided permissions to his **Home** folder and contents (tmpusr01 is the User Owner). However, if one is **NOT** the **User Owner** one
 requires elevated privileges.  
+
+## Octal Method  
+The octal method uses numbers to modify permissions. **Read** is assigned **4**, **Write** is assigned **2**, and **Execute** is assigned **1**. If **Read, Write, and Execute**
+permission must be given, then the permission values are added - so **7** (4+2+1). If **Read and Execute** permissions must be given, then the total value is **5** (4+1).  
+If **Read** or **Write** or **Execute** alone must be given, then the value is **4** or **2** or **1**. These values apply separately to **User Owner**, **Group Owner**, and **Others**. </br>  
+
+### Scenario - Octal Method  
+The user **tmpusr01** wants to enable **Read and Execute** permissions to both **Group Owner** and **Others**. He already has **Read, Write, and Execute** permissions for his **Home** directory.  
+So he executes the command **chmod 755 /home/tmpusr01**. In this command the permissions 755 are denote the permissions **Read, Write, and Execute (7)** for **User Owner**, **Read and Execute (5)**
+for **Group Owner** and the same permissions (**5**) for **Others**.  
+In this example, the first place holder has 7, the second placeholder has 5, and the third placeholder has 5.  
+A value of **0** means no permission, so 640 would assign **Read and Write** to **User Owner**, **Read** for **Group Owner** and nothing for **Others**. See image below: </br>  
+<img width="636" height="549" alt="image" src="https://github.com/user-attachments/assets/9e753157-bf82-4964-be56-6acc9734bde2" />  

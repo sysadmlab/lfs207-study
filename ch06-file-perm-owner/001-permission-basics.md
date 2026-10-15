@@ -9,7 +9,8 @@ for **Owner** also known as **User Owner**, **Group** also known as **Group Owne
 The permissions **read**, **write**, and **execute** are assigned to each group as shown below. </br>  
 <img width="514" height="164" alt="image" src="https://github.com/user-attachments/assets/8ceabeea-ac67-4095-b085-2b84dd71bb98" /> </br>  
 
-A dash (**-**) denotes that the specific permission is no available for that particular group. In the image below, the **User Owner** has **Read and Write** permissions, the **Group Owner** has only **Read** permission, and **Others/World** has only **Read** permission.  </br>  
+A dash (**-**) denotes that the specific permission is not available for that particular group.  
+In the image below, the **User Owner** has **Read and Write** permissions, the **Group Owner** has only **Read** permission, and **Others/World** has only **Read** permission.  </br>  
 <img width="514" height="164" alt="image" src="https://github.com/user-attachments/assets/91cf9a44-1346-4c6c-89de-9451c4b95b6b" />  
 
 

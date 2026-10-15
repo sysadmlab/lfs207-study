@@ -16,4 +16,8 @@ As shown in the image below, the user **tmpusr01** is the **User Owner** of the 
 Permissions for can be provided one at a time or combined together.  
 For Example, in the image below, chmod **o+x** provides **Execute** permission to **Others**. chmod **g+rw** provides **Read and Write** permissions to the **Group Owner**.  
 Likewise, chmod **o-rx** removes **Read and Execute** for **Others**. chmod **g+rw**,**o+r** provides **Read Write** permissions to **Group Owner** and **Read** permission to **Others**. </br>  
-<img width="654" height="878" alt="image" src="https://github.com/user-attachments/assets/2c8bb80e-f1f9-41b7-8fbb-932721016564" />  
+<img width="654" height="878" alt="image" src="https://github.com/user-attachments/assets/2c8bb80e-f1f9-41b7-8fbb-932721016564" /> </br>  
+
+### Note
+In the above scenario, the user **tmpusr01** has provided permissions to his **Home** folder and contents (tmpusr01 is the User Owner). However, if one is **NOT** the **User Owner** one
+requires elevated privileges.  

@@ -45,3 +45,8 @@ Instead, I wanted to create a separate directory, something that is common for a
 26. After saving the above entry and rebooting my virtual machine, the device was mounted at the designated directory. </br>  
 <img width="893" height="491" alt="image" src="https://github.com/user-attachments/assets/955373e1-cf4a-4921-8a21-fef8e1b74fc5" /> </br>  
 27. Then using the command **sudo chown as:as /stor** I changed ownership of the directory from **root:root** to **as:as** </br>  
+
+## chown command  
+
+
+

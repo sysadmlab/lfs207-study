@@ -61,3 +61,9 @@ I do NOT want to change the **user owner**. </br>
 
 
 ## chgrp demo  
+The **chgrp** command is used to change the **group owner** and as mentioned earlier, the **chgrp** command does NOT require **sudo** privileges when used to by the **user owner**
+to change to a group that he is a member of. </br>  
+<img width="660" height="384" alt="image" src="https://github.com/user-attachments/assets/d5192956-7076-4ebb-b60c-65ed60f38a8f" /> </br>  
+
+From the image above, it can be inferred that a user who is the **user owner** of a file can use the **chgrp** command to change the **group owner** of the file - provided
+he belongs to the **target group owner**. Else, **sudo** permissions will be required to complete the operation. </br>  

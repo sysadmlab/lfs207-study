@@ -46,7 +46,8 @@ Instead, I wanted to create a separate directory, something that is common for a
 <img width="893" height="491" alt="image" src="https://github.com/user-attachments/assets/955373e1-cf4a-4921-8a21-fef8e1b74fc5" /> </br>  
 27. Then using the command **sudo chown as:as /stor** I changed ownership of the directory from **root:root** to **as:as** </br>  
 
-## chown command  
-
-
+## chown and chgrp demo  
+For the purpose of these demos I have created two more user accounts and two groups. The user accounts **tmpusr01** and **tmpusr02** belong to group **helpdesk**. My user account **as** belongs to group **boss**. </br>  
+<img width="766" height="524" alt="Screenshot From 2026-10-18 17-42-22" src="https://github.com/user-attachments/assets/30e0b8b2-c35c-4e6c-99bc-2574d124fa7e" /> </br>  
+<img width="696" height="720" alt="image" src="https://github.com/user-attachments/assets/2fe8f167-3c33-4160-8ba5-6d50287dc1bb" /> </br>  
 

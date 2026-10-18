@@ -49,5 +49,12 @@ Instead, I wanted to create a separate directory, something that is common for a
 ## chown and chgrp demo  
 For the purpose of these demos I have created two more user accounts and two groups. The user accounts **tmpusr01** and **tmpusr02** belong to group **helpdesk**. My user account **as** belongs to group **boss**. </br>  
 <img width="766" height="524" alt="Screenshot From 2026-10-18 17-42-22" src="https://github.com/user-attachments/assets/30e0b8b2-c35c-4e6c-99bc-2574d124fa7e" /> </br>  
-<img width="696" height="720" alt="image" src="https://github.com/user-attachments/assets/2fe8f167-3c33-4160-8ba5-6d50287dc1bb" /> </br>  
+The **chown** command requires elevated privileges; executing the command without **sudo** results in an error. </br>  
 
+1. In the first command, using **sudo**, I have changed the **user owner** to **tmpusr01** - **sudo chown tmpusr01:as chowntest**. In the command the colon (:) symbol separates the **user_owner:group_owner**. </br>  
+2. In the second command, I wanted to change only the **user owner**, hence I've executed **sudo chown as: chowntest**. Here I have left a blank space after the colon - this means
+that there is no change to the **group owner**. </br>
+3. In the third command which is **sudo chown :boss chowntest**, I have changed only the **group owner** to **boss**. I have left a blank space before the colon symbol, denoting that
+I do NOT want to change the **user owner**. </br>
+4. In the fourth command, I have changed both the **user owner** and the **group owner** by using the command **sudo chown tmpusr02:helpdesk chowntest**. </br>  
+<img width="696" height="720" alt="image" src="https://github.com/user-attachments/assets/2fe8f167-3c33-4160-8ba5-6d50287dc1bb" /> </br>  

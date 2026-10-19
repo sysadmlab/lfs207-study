@@ -11,3 +11,5 @@ While the course material states that **umask** values can be found at **/etc/pr
 in openSUSE. There a **/etc** and then there's a **/usr/etc**.  
 In Rocky Linux and Ubuntu Server, **umask** values are found in **/etc/login.defs** </br>  
 <img width="795" height="488" alt="image" src="https://github.com/user-attachments/assets/74bc8d91-6de4-46e1-8833-7bfb64b4bcc8" />  
+
+It appears that **umask** values may be found in **/etc/bashrc** in some cases and SysAdmins set more restrictive **umask** values in the **~/.bashrc** file for per-user basis.  

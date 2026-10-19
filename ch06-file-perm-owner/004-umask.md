@@ -19,3 +19,7 @@ It appears that **umask** values may be found in **/etc/bashrc** in some cases a
 I have changed the **umask** to **027**. This change also gets passed-on to **child processes**, however, this change does **NOT** carry over to new logins. </br>  
 Hence in such cases **umask** must be changed in the appropriate file to make the change permament. </br>  
 <img width="567" height="353" alt="image" src="https://github.com/user-attachments/assets/aafd704c-76a9-41ec-b569-9582ee89041a" /> </br>  
+
+### NOTE  
+A demo video in the course also includes a very short portion dicussing how the **symbolic** method can be used with the **umask**. I found it confusing to an extent that
+I was afraid I will forget **umask** totally. So, I'm sticking with the **octal** method.  

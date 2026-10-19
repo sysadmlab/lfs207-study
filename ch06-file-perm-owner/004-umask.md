@@ -9,5 +9,5 @@ So all newly created directories have a permission of **755** and all newly crea
 
 While the course material states that **umask** values can be found at **/etc/profile**, in openSUSE Leap it is found at **/usr/etc/login.defs** - it's a bit different
 in openSUSE. There a **/etc** and then there's a **/usr/etc**.  
-In Rocky Linux, **umask** values are found in **/etc/login.defs** </br>  
+In Rocky Linux and Ubuntu Server, **umask** values are found in **/etc/login.defs** </br>  
 <img width="795" height="488" alt="image" src="https://github.com/user-attachments/assets/74bc8d91-6de4-46e1-8833-7bfb64b4bcc8" />  

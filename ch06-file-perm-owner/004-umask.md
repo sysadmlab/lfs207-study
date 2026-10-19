@@ -16,7 +16,6 @@ It appears that **umask** values may be found in **/etc/bashrc** in some cases a
 
 ## Changing umask  
 **umask** value can be changed using the command **umask <value>**. </br>  
-I have changed the **umask** to **027**. This change also gets passed-on to **child processes**, however, this change does **NOT** carry over to new logins.  
-Hence to have a permanent effect on **umask** the change must be made in  
+I have changed the **umask** to **027**. This change also gets passed-on to **child processes**, however, this change does **NOT** carry over to new logins. </br>  
+Hence to have a permanent effect on **umask** the change could be made in, for example, **~/.bashrc**. </br>  
 <img width="567" height="353" alt="image" src="https://github.com/user-attachments/assets/aafd704c-76a9-41ec-b569-9582ee89041a" /> </br>  
-

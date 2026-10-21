@@ -71,8 +71,9 @@ he belongs to the **target group owner**. Else, **sudo** permissions will be req
 
 ### Followed the "Scenario" mentioned above in my Rocky Linux VM for the **facl** demo:  
 <img width="1177" height="477" alt="image" src="https://github.com/user-attachments/assets/fa2e15e3-fcb2-4321-8537-a7e151222754" />  
-
-
-
-
-
+<img width="758" height="201" alt="Screenshot From 2026-10-21 16-36-32" src="https://github.com/user-attachments/assets/53daa41e-35e1-456c-be34-e2af6711694a" />  
+<img width="830" height="155" alt="Screenshot From 2026-10-21 16-37-46" src="https://github.com/user-attachments/assets/6ba15861-ea53-4644-a61c-15aca580632f" />  
+<img width="1185" height="292" alt="image" src="https://github.com/user-attachments/assets/d11aeb30-ee49-45a4-aea8-6e45594ff4c0" />  
+<img width="1200" height="569" alt="image" src="https://github.com/user-attachments/assets/17f8d4af-5638-4242-a050-3426b6422905" />  
+<img width="1026" height="391" alt="image" src="https://github.com/user-attachments/assets/f83d8c54-c3de-4387-acb8-749c9923cd7f" />  
+<img width="1181" height="619" alt="image" src="https://github.com/user-attachments/assets/b592a4fc-393f-45d3-b6c5-d06791b8ae68" />  

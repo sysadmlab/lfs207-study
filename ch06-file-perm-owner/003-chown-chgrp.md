@@ -70,9 +70,9 @@ he belongs to the **target group owner**. Else, **sudo** permissions will be req
 
 
 ### Followed the "Scenario" mentioned above in my Rocky Linux VM for the **facl** demo:  
-<img width="1177" height="477" alt="image" src="https://github.com/user-attachments/assets/e1a734ac-f79a-4576-986e-2b19f6e5fd71" />  
-<img width="758" height="201" alt="Screenshot From 2026-10-21 16-36-32" src="https://github.com/user-attachments/assets/2eb19f31-370a-4534-93f3-3b11db4c3d6a" />  
-<img width="830" height="155" alt="Screenshot From 2026-10-21 16-37-46" src="https://github.com/user-attachments/assets/c7682f11-0e7f-483d-8244-b679610e0f1d" />  
+<img width="1177" height="477" alt="image" src="https://github.com/user-attachments/assets/fa2e15e3-fcb2-4321-8537-a7e151222754" />  
+
+
 
 
 

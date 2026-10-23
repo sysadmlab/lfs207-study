@@ -11,4 +11,6 @@ I have also created a directory named **public** which everyone in the company c
   <img width="499" height="344" alt="Screenshot From 2026-10-23 19-33-33" src="https://github.com/user-attachments/assets/b4e62475-dba7-4929-99c7-a94733919f0f" /> </br>  
   I have set **Set GID** bit for the **/stor/itsupport** and **/stor/accounts** directories. By this setting, when users from respective groups create new files
   under their respective directories, the group owner permissions always gets inherited. </br>  
+  <img width="553" height="150" alt="Screenshot From 2026-10-23 19-49-38" src="https://github.com/user-attachments/assets/7c6f9d82-9a12-4149-9468-fe58d8fbadaf" /> </br>  
+
   

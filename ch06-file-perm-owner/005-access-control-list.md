@@ -34,3 +34,5 @@ I have also created a directory named **public** which everyone in the company c
   <img width="952" height="305" alt="image" src="https://github.com/user-attachments/assets/0112fc4f-eb03-4042-b331-8458d3a8e95f" /> </br>  
   Using the command **grep -i 'acl' "/boot/config-$(uname -r)"**, I can search for the string **acl** in the Kernel **config** file to see which
   filesystems have **acl** **enabled**. The setting **CONFIG_XFS_POSIX_ACL=y** confirms that **acl** is enabled for the **XFS** filesystem. </br>  
+  <img width="632" height="318" alt="image" src="https://github.com/user-attachments/assets/39671d59-9f92-4617-9836-8b287737aebf" /> </br>  
+

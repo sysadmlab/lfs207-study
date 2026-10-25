@@ -44,4 +44,9 @@ I have also created a directory named **public** which everyone in the company c
   **getfacl**  - to display the current access control list </br>  
   **setfacl** - to add or remove users from the access control list </br>  
 
+  ### Setting permissions with extended access control lists  
+  The following image shows the results when I execute the **getfacl** command against the directories and file. </br>  
+  <img width="773" height="859" alt="image" src="https://github.com/user-attachments/assets/b093c137-9a25-4c14-a0b9-d41ff24a7caf" /> </br>  
+
+
   

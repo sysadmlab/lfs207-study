@@ -1,5 +1,5 @@
 # Access Control List  
-From the mistakes made and lessons learnt from **005-access-control-list.md** and **001-acl.nd respectively**, I have made changes to the lab setup.
+From the mistakes made and lessons learnt from **005-access-control-list.md** and **001-acl.md respectively**, I have made changes to the lab setup.
 Here's how the directory structure looks now </br>  
 
 | Path | Owner:group | Mode |

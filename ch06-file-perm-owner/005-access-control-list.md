@@ -60,8 +60,3 @@ I have also created a directory named **public** which everyone in the company c
   <img width="634" height="448" alt="image" src="https://github.com/user-attachments/assets/ab7715c9-52e8-442b-8619-981d61f8c01f" /> </br>  
 
   
-
-
-
-
-  

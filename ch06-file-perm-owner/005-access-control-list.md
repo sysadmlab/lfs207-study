@@ -31,4 +31,6 @@ I have also created a directory named **public** which everyone in the company c
   ### Linux File Access Control List  
   For the XFS filesystem, access control list is enabled by default. This may NOT be the case for other filesystems. Hence, whether ACL is enabled for the filesystem
   must be checked and it can be verified as follows. </br>  
-  <img width="952" height="305" alt="image" src="https://github.com/user-attachments/assets/0112fc4f-eb03-4042-b331-8458d3a8e95f" />
+  <img width="952" height="305" alt="image" src="https://github.com/user-attachments/assets/0112fc4f-eb03-4042-b331-8458d3a8e95f" /> </br>  
+  Using the command **grep -i 'acl' "/boot/config-$(uname -r)"**, I can search for the string **acl** in the Kernel **config** file to see which
+  filesystems have **acl** **enabled**. The setting **CONFIG_XFS_POSIX_ACL=y** confirms that **acl** is enabled for the **XFS** filesystem. </br>  

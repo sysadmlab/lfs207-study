@@ -26,6 +26,7 @@ I have also created a directory named **public** which everyone in the company c
   Since **Christina** alone requires access to the specific directories and files in **itsupport**, it would not be ideal to enable **Read** and **Execute** permissions
   to **Others** which would ideally allow everyone to **traverse(change directory)** into **itsupport** and **list** contents. </br>  
   It would NOT be ideal to add **Christina** to the **ithelpdesk** group which would give her access to everything the **ithelpdesk** group owns. </br>  
+  Also, classic permissions only allow one **owner** and **group** for an item. </br>  
   Hence for such occasions when a specific user requires specific access to files, the Access Control List comes into play. </br>  
 
   ### Linux File Access Control List  
@@ -35,4 +36,12 @@ I have also created a directory named **public** which everyone in the company c
   Using the command **grep -i 'acl' "/boot/config-$(uname -r)"**, I can search for the string **acl** in the Kernel **config** file to see which
   filesystems have **acl** **enabled**. The setting **CONFIG_XFS_POSIX_ACL=y** confirms that **acl** is enabled for the **XFS** filesystem. </br>  
   <img width="632" height="318" alt="image" src="https://github.com/user-attachments/assets/39671d59-9f92-4617-9836-8b287737aebf" /> </br>  
+  Access Control List allows additional **users** and **groups** to be added in addition to the classic **user owner**, **group owner**, and **Others**. </br>  
+  **NOTE** The following image shows the current permissions of the files and directories. The permissions are followed by a **.** symbol - denoting SELinux. </br>  
+  <img width="640" height="363" alt="image" src="https://github.com/user-attachments/assets/61ebaa5e-c147-4d10-9cc3-c03dbf90e7ec" /> </br>  
 
+  ### Commands used  
+  **getfacl**  - to display the current access control list </br>  
+  **setfacl** - to add or remove users from the access control list </br>  
+
+  

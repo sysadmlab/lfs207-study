@@ -68,3 +68,8 @@ I have also created a directory named **public** which everyone in the company c
   As shown in the image below, I have given access to the group **ithelpdesk** for the directory **/stor/accounts/itinvoices**. This named permission allows the
   user **Robin** belonging to the **ithelpdesk** to change directory and create/delete files in the **itinvoices** directory. </br>  
   <img width="731" height="708" alt="image" src="https://github.com/user-attachments/assets/997b2476-191a-4b41-a673-872113588997" /> </br>  
+
+  ### Removing a named entry  
+  To remove a named entry, I can use the **setfacl** command with the **-x** option. For example, when I run the command **setfacl -x g:ithelpdesk itinvoices**, the entry
+  for the group **ithelpdesk** is removed from the **itinvoices** directory. </br>  
+  <img width="707" height="489" alt="image" src="https://github.com/user-attachments/assets/75016e70-623d-4fd8-848f-06a0c4e804f6" /> </br>  

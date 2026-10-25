@@ -63,5 +63,4 @@ I have also created a directory named **public** which everyone in the company c
   <img width="715" height="485" alt="image" src="https://github.com/user-attachments/assets/16f68df5-780c-495b-b808-b53e80ebee9b" /> </br>  
   With the named permissions given to Christina, she can now **cd** to the **capex** directory and with the **read** permission, she can list the directory's contents. </br>  
   As a next step, using the command **setfacl -m u:christina:rw- oct2026.xlsx** to provide **read** and **write** access to the file. </br>  
-  
-
+  <img width="717" height="529" alt="image" src="https://github.com/user-attachments/assets/d073df00-1a70-494f-aebe-67854478b834" /> </br>  

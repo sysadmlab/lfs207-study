@@ -64,3 +64,7 @@ I have also created a directory named **public** which everyone in the company c
   With the named permissions given to Christina, she can now **cd** to the **capex** directory and with the **read** permission, she can list the directory's contents. </br>  
   As a next step, using the command **setfacl -m u:christina:rw- oct2026.xlsx** to provide **read** and **write** access to the file. </br>  
   <img width="717" height="529" alt="image" src="https://github.com/user-attachments/assets/d073df00-1a70-494f-aebe-67854478b834" /> </br>  
+
+  As shown in the image below, I have given access to the group **ithelpdesk** for the directory **/stor/accounts/itinvoices**. This named permission allows the
+  user **Robin** belonging to the **ithelpdesk** to change directory and create/delete files in the **itinvoices** directory. </br>  
+  <img width="731" height="708" alt="image" src="https://github.com/user-attachments/assets/997b2476-191a-4b41-a673-872113588997" /> </br>  

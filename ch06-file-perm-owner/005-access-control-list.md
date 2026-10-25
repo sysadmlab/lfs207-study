@@ -26,8 +26,8 @@ I have also created a directory named **public** which everyone in the company c
   Since **Christina** alone requires access to the specific directories and files in **itsupport**, it would not be ideal to enable **Read** and **Execute** permissions
   to **Others** which would ideally allow everyone to **traverse(change directory)** into **itsupport** and **list** contents. </br>  
   It would NOT be ideal to add **Christina** to the **ithelpdesk** group which would give her access to everything the **ithelpdesk** group owns. </br>  
-  Also, classic permissions only allow one **owner** and **group** for an item. </br>  
-  Hence for such occasions when a specific user requires specific access to files, the Access Control List comes into play. </br>  
+  Also, classic permissions (minimal ACL) only allow one **owner** and **group** for an item. </br>  
+  Hence for such occasions when a specific user requires specific access to files, the Access Control List (extended ACL) comes into play. </br>  
 
   ### Linux File Access Control List  
   For the XFS filesystem, access control list is enabled by default. This may NOT be the case for other filesystems. Hence, whether ACL is enabled for the filesystem
@@ -44,9 +44,19 @@ I have also created a directory named **public** which everyone in the company c
   **getfacl**  - to display the current access control list </br>  
   **setfacl** - to add or remove users from the access control list </br>  
 
-  ### Setting permissions with extended access control lists  
+  ### Adding named users and groups entries  
   The following image shows the results when I execute the **getfacl** command against the directories and file. </br>  
   <img width="773" height="859" alt="image" src="https://github.com/user-attachments/assets/b093c137-9a25-4c14-a0b9-d41ff24a7caf" /> </br>  
+  Using the **setfacl** command with option **-m** modifies the extended access control list to add or replace entries. To remove an entry, the option **-x**
+  should be used. </br>  
+  Currently I'm at the **/stor** directory and I'm going to use the command **setfacl -m user:christina:x itsupport** to allow **Christina** to change to the **itsupport** directory. </br>  
+  <img width="590" height="383" alt="image" src="https://github.com/user-attachments/assets/956f0387-8e02-4d06-96e5-9d56b0d1ee2f" /> </br>  
+  The first thing I note after executing the **setfacl** command to give **Christina** execute permissions is how the **dot** **.** has changed to a **plus** **+** denoting
+  that there is something more to the **itsupport** directory. </br>  
+  <img width="612" height="191" alt="image" src="https://github.com/user-attachments/assets/612375fd-5070-4f32-bbeb-1c525361004e" /> </br>  
+  
+
+
 
 
   

@@ -58,5 +58,10 @@ I have also created a directory named **public** which everyone in the company c
   To verify this, I switch user to Christina and tried to change the directory to **itsupport** and **it works** Christina can now change directory to **itsupport** but she
   cannot list the contents of the directory, because I have not given her **read** permissions in the **setfacl** command above. </br>  
   <img width="634" height="448" alt="image" src="https://github.com/user-attachments/assets/ab7715c9-52e8-442b-8619-981d61f8c01f" /> </br>  
-
+  Further, I executed the command **setfacl -m u:christina:r-x capex** to give **read** and **execute** permissions to **Christina**. Note that instead
+  of **user** I have used **u** and instead of permissions **rx** I have used **r-x**. They mean the same. </br>  
+  <img width="715" height="485" alt="image" src="https://github.com/user-attachments/assets/16f68df5-780c-495b-b808-b53e80ebee9b" /> </br>  
+  With the named permissions given to Christina, she can now **cd** to the **capex** directory and with the **read** permission, she can list the directory's contents. </br>  
+  As a next step, using the command **setfacl -m u:christina:rw- oct2026.xlsx** to provide **read** and **write** access to the file. </br>  
   
+

@@ -54,6 +54,11 @@ I have also created a directory named **public** which everyone in the company c
   The first thing I note after executing the **setfacl** command to give **Christina** execute permissions is how the **dot** **.** has changed to a **plus** **+** denoting
   that there is something more to the **itsupport** directory. </br>  
   <img width="612" height="191" alt="image" src="https://github.com/user-attachments/assets/612375fd-5070-4f32-bbeb-1c525361004e" /> </br>  
+  Next, when I execute **getfacl** I note the change in permissions. Now, there is a second **user** entry with **Christina** and she has **execute** permissions. </br>  
+  To verify this, I switch user to Christina and tried to change the directory to **itsupport** and **it works** Christina can now change directory to **itsupport** but she
+  cannot list the contents of the directory, because I have not given her **read** permissions in the **setfacl** command above. </br>  
+  <img width="634" height="448" alt="image" src="https://github.com/user-attachments/assets/ab7715c9-52e8-442b-8619-981d61f8c01f" /> </br>  
+
   
 
 

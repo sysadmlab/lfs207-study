@@ -11,3 +11,11 @@ Here's how the directory structure looks now </br>
 | `itsupport/capex/oct2026.xlsx` | `root:ithelpdesk` | `-rw-rw----` (`660`) |
 | `public` | `root:public` | `drwxrwxrwt` (`1777`) |
 
+In the new structure, **root** is the **User Owner** of all the directories. The **accounts** and **itsupport** directories are **Group** owned by the respective
+departments. </br>  
+Using **sudo** with the **getfacl** command ensures that the **Set GID** and **Sticky Bit** special permissions are preserved. </br>  
+<img width="800" height="876" alt="image" src="https://github.com/user-attachments/assets/f304d021-2e4c-40de-b987-3b9b2d44dd45" /> </br>  
+So when **Robin** from the **ithelpdesk** group creates the **invoice01.pdf** file in the **accounts/itinvoices** directory, the **accounting** group by default owns it. </br>  
+<img width="666" height="643" alt="image" src="https://github.com/user-attachments/assets/6a7904f7-1d5a-46a6-82de-3dddf24d3404" /> </br>  
+
+

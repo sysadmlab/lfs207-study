@@ -45,5 +45,5 @@ The following image shows that **Christina** can **read** and **write** to the *
 However, I have made sure that **Christina** cannot access other areas of the **itsupport** directory. </br>  
 <img width="765" height="405" alt="image" src="https://github.com/user-attachments/assets/68417af9-edbe-4ace-9cae-a63702401bda" /> </br>  
 
-I have also tried to access the directories as **Joe** and **Katie** and I note that access is denied for them. </br>  
-<img width="785" height="702" alt="image" src="https://github.com/user-attachments/assets/b888e190-caa8-4d49-8003-1d84fbc35f05" />
+I have also tried to login as **Joe** and **Katie** and I note that access is permitted only to those directories owned by their respective groups. </br>  
+<img width="785" height="702" alt="image" src="https://github.com/user-attachments/assets/b888e190-caa8-4d49-8003-1d84fbc35f05" />  

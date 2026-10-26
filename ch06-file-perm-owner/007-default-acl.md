@@ -8,4 +8,8 @@ Further, I have created a group **hrd** and a user **hrm**, and I added **hrm** 
 As shown in the image, I have executed the **chgrp** command to change the group owner to **hrd**. Then using the **chmod** command, I have Set GID on the
 **infodocs** directory.  
 
+When I run the command **getfacl** on the **infodocs** directory, I note the **flags** **-s-** to denote that **Set GID** is enabled. </br>  
+<img width="610" height="198" alt="image" src="https://github.com/user-attachments/assets/689aaae8-6b87-4a27-949f-fcb61c52d92d" />
+
+
 

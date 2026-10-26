@@ -40,10 +40,10 @@ So when **Robin** from the **ithelpdesk** group creates the **invoice01.pdf** fi
 <img width="666" height="643" alt="image" src="https://github.com/user-attachments/assets/6a7904f7-1d5a-46a6-82de-3dddf24d3404" /> </br>  
 
 The following image shows that **Christina** can **read** and **write** to the **oct2026.xlsx** file inside the **ithelpdesk/capex** directory. </br>  
-<img width="788" height="951" alt="image" src="https://github.com/user-attachments/assets/01f139ff-55ad-4e6d-946d-69ca5ff9d1e1" /> </br>  
+<img width="785" height="255" alt="image" src="https://github.com/user-attachments/assets/cb24af2c-da70-43dd-9e1b-9efc273837f9" /> </br>  
 
 However, I have made sure that **Christina** cannot access other areas of the **itsupport** directory. </br>  
 <img width="765" height="405" alt="image" src="https://github.com/user-attachments/assets/68417af9-edbe-4ace-9cae-a63702401bda" /> </br>  
 
 I have also tried to access the directories as **Joe** and **Katie** and I note that access is denied for them. </br>  
-
+<img width="785" height="702" alt="image" src="https://github.com/user-attachments/assets/b888e190-caa8-4d49-8003-1d84fbc35f05" />

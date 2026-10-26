@@ -10,3 +10,4 @@ Here's how the directory structure looks now </br>
 | `itsupport/capex` | `root:ithelpdesk` | `drwxrws--T` (`3770`) |
 | `itsupport/capex/oct2026.xlsx` | `root:ithelpdesk` | `-rw-rw----` (`660`) |
 | `public` | `root:public` | `drwxrwxrwt` (`1777`) |
+

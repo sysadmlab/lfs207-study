@@ -47,6 +47,7 @@ The user **as** who is the IT Manager is also able to change to the infodocs dir
 ## Access ACL, Default ACL, and Effective Permissions  
 Subdirectories received the default ACL twice: as their access ACL and as their own default ACL, which is how it propagates down the tree. </br>  
 Files have no default: lines, since only directories can have them. </br>  
-On files, user:as:rwx shows #effective:rw- because files are created with mode 0666, so the mask became rw- and caps the named entry and the group entry. <.br>  
+On files, user:as:rwx shows #effective:rw- because files are created with mode 0666, so the mask became rw- and caps the named entry and the group entry. </br>  
+
 <img width="494" height="757" alt="Screenshot From 2026-10-26 22-04-05" src="https://github.com/user-attachments/assets/73353892-b950-4609-b58e-eb96d43ecc82" />   
 <img width="492" height="469" alt="Screenshot From 2026-10-26 22-04-52" src="https://github.com/user-attachments/assets/3ad8f1f2-b1a2-417b-8a00-b87a1c77d7da" />  

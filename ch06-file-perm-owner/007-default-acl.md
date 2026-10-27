@@ -1,7 +1,7 @@
 # Setting a default ACL  
 
 ## Demonstration  
-A **default ACL** can only be set on directories. The **default ACL** gets copied to sub-directories and files. </br>  
+A **default ACL** can only be set on directories. The **default ACL** gets copied to **newly created** sub-directories and files. </br>  
 <img width="520" height="89" alt="Screenshot From 2026-10-26 21-15-26" src="https://github.com/user-attachments/assets/62942eb2-4f38-4c2b-a668-c0e51e3647c0" />  
 For demonstration, I have created a directory **infodocs** under **/stor**. Currently **root:root** is the user owner and group owner.  
 
@@ -37,7 +37,7 @@ That is why I MUST first ensure that I apply the access ACL for the **infodocs**
 
 ## Checking if the settings worked  
 From the image below, I note that the user **hrm** is able to create directories and files in the **infodocs** directory.  
-I also notice that the **User Owner** and **Group Owner** ownerships are working as expected.  
+I also notice that new items are owned by the user who created them, and their group is **hrd** because of **Set GID**.  
 The **Set GID** special permission is also working as expected. </br>  
 <img width="955" height="528" alt="image" src="https://github.com/user-attachments/assets/7b353d65-97ae-4636-96ee-b2277f8d9414" />  
 
@@ -45,5 +45,8 @@ The user **as** who is the IT Manager is also able to change to the infodocs dir
 <img width="955" height="363" alt="image" src="https://github.com/user-attachments/assets/6cf35e25-6b0d-4811-bf10-82dd8aeb3010" />  
 
 ## Access ACL, Default ACL, and Effective Permissions  
-<img width="494" height="757" alt="Screenshot From 2026-10-26 22-04-05" src="https://github.com/user-attachments/assets/73353892-b950-4609-b58e-eb96d43ecc82" />  
+Subdirectories received the default ACL twice: as their access ACL and as their own default ACL, which is how it propagates down the tree. </br>  
+Files have no default: lines, since only directories can have them. </br>  
+On files, user:as:rwx shows #effective:rw- because files are created with mode 0666, so the mask became rw- and caps the named entry and the group entry. <.br>  
+<img width="494" height="757" alt="Screenshot From 2026-10-26 22-04-05" src="https://github.com/user-attachments/assets/73353892-b950-4609-b58e-eb96d43ecc82" />   
 <img width="492" height="469" alt="Screenshot From 2026-10-26 22-04-52" src="https://github.com/user-attachments/assets/3ad8f1f2-b1a2-417b-8a00-b87a1c77d7da" />  

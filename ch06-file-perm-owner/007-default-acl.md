@@ -37,8 +37,7 @@ The order in which I execute the commands does NOT matter, but for things to wor
 
 ## Checking if the settings worked  
 From the image below, I note that the user **hrm** is able to create directories and files in the **infodocs** directory.  
-I also notice that new items are owned by the user who created them, and their group is **hrd** because of **Set GID**.  
-The **Set GID** special permission is also working as expected. </br>  
+I also notice that new items are owned by the user who created them, and their group is **hrd** because of **Set GID**. </br>  
 <img width="955" height="528" alt="image" src="https://github.com/user-attachments/assets/7b353d65-97ae-4636-96ee-b2277f8d9414" />  
 
 The user **as** who is the IT Manager is also able to change to the infodocs directory, list contents, navigate through sub-directories, create new files, read and write to files. </br>  

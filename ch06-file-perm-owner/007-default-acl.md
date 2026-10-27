@@ -33,7 +33,7 @@ permissions. </br>
 ### Things to note  
 The **default ACL** is copied only to the sub-directories and files under the **infodocs** directory. The **default ACL** does **NOT** apply to **infodocs**.  
 The **default ACL** applies only to sub-directories and files that are created after setting the **default ACL**. **Already existing** items do **NOT** get it.  
-That is why I MUST first ensure that I apply the access ACL for the **infodocs** directory and then set the **default ACL** for the same directory. </br>  
+The order in which I execute the commands does NOT matter, but for things to work as expected both commands must be executed. </br>  
 
 ## Checking if the settings worked  
 From the image below, I note that the user **hrm** is able to create directories and files in the **infodocs** directory.  
@@ -43,6 +43,9 @@ The **Set GID** special permission is also working as expected. </br>
 
 The user **as** who is the IT Manager is also able to change to the infodocs directory, list contents, navigate through sub-directories, create new files, read and write to files. </br>  
 <img width="955" height="363" alt="image" src="https://github.com/user-attachments/assets/6cf35e25-6b0d-4811-bf10-82dd8aeb3010" />  
+The user **as** can also write to files created by the **hrm**. </br>  
+<img width="1068" height="344" alt="image" src="https://github.com/user-attachments/assets/13297d7d-3f6c-45cc-a32a-a219f7aa429f" />  
+
 
 ## Access ACL, Default ACL, and Effective Permissions  
 Subdirectories received the default ACL twice: as their access ACL and as their own default ACL, which is how it propagates down the tree. </br>  

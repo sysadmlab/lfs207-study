@@ -37,7 +37,7 @@ The Virtual Machines mentioned above are Minimal Install. Each machine has a Pri
 
 <img width="561" height="115" alt="Screenshot From 2026-07-28 20-42-12" src="https://github.com/user-attachments/assets/a06a6eb8-9c8d-494e-a15c-1589b42a9a95" /> </br>  
 
-# Course Outline
+## Course Outline  
 
 Chapter 1. Introduction  
 Chapter 2. Linux Filesystem Tree Layout  

@@ -13,16 +13,18 @@ When I run the command **getfacl** on the **infodocs** directory, I note the **f
 
 The objective here is to ensure that the Human Resources Manager and the IT Manager collaborate in creating and maintaining the **information documents** for the company.  
 
+## Setting the named access ACL  
 Then I execute the **setfacl** with **sudo** permissions to make a named entry, providing the user **as** with **read, write, and execute** access to the
 **infodocs** directory. </br>  
-<img width="609" height="589" alt="image" src="https://github.com/user-attachments/assets/76639f83-00f0-49ce-80a0-8c0df8f2bf03" />  
+<img width="611" height="236" alt="image" src="https://github.com/user-attachments/assets/fbac0bc2-6852-4ae4-9dfe-96e684eb4e73" />  
 ### Things to note  
 The above access ACL provides the appropriate access to user **as** for this particular directory alone.  
 The above access ACL does **NOT** apply to existing sub-directories and files under the **infodocs** directory or the ones to be created hereafter.  
 
-
+## Setting the default ACL  
 I use the **setfacl** command again with **sudo** permissions to set the **default ACL**, providing user **as** with **read, write, and execute**
 permissions. </br>  
+<img width="609" height="361" alt="image" src="https://github.com/user-attachments/assets/ee065b4c-5670-4e98-90cf-170214a1a475" />  
 ### Things to note  
 The **default ACL** is copied only to the sub-directories and files under the **infodocs** directory. The **default ACL** does **NOT** apply to **infodocs**.  
 The **default ACL** applies only to sub-directories and files that are created after setting the **default ACL**. **Already existing** items do **NOT** get it.  

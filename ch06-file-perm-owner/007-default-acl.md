@@ -18,5 +18,5 @@ Once this is done, I use the **setfacl** command again with **sudo** permissions
 permissions. </br>  
 I wondered why I had to run two commands: why can't I just run the **setfacl** command to apply the **default ACL** and the permissions are applied throughout. </br>  
 However, when I researched, that's not how things work. </br>  
-The **default ACL** is applied only to the sub-directories and files under the **infodocs** directory. The **default ACL** does **NOT** apply to **infodocs**. </br>  
+The **default ACL** is copied only to the sub-directories and files under the **infodocs** directory. The **default ACL** does **NOT** apply to **infodocs**. </br>  
 That is why I MUST first ensure that I apply the access ACL for the **infodocs** directory and then set the **default ACL** for the same directory. </br>  

@@ -15,7 +15,8 @@ When I run the command **getfacl** on the **infodocs** directory, I note the **f
 <img width="610" height="198" alt="image" src="https://github.com/user-attachments/assets/689aaae8-6b87-4a27-949f-fcb61c52d92d" />  
 
 ## Scenario  
-The objective here is to ensure that the Human Resources Manager and the IT Manager collaborate in creating and maintaining the **information documents** for the company.  
+The objective here is to ensure that the Human Resources Manager and the IT Manager collaborate in creating and maintaining the **information documents** for the company. </br>  
+As noted, the **infodocs** directory is owned by user **root** and group **hrd**.  
 
 ## Setting the named access ACL  
 Then I execute the **setfacl** with **sudo** permissions to make a named entry, providing the user **as** with **read, write, and execute** access to the
@@ -36,7 +37,8 @@ That is why I MUST first ensure that I apply the access ACL for the **infodocs**
 
 ## Checking if the settings worked  
 From the image below, I note that the user **hrm** is able to create directories and files in the **infodocs** directory.  
-I also notice that the **User Owner** and **Group Owner** memberships are working as expected. The **Set GID** special permission is also working as expected. </br>  
+I also notice that the **User Owner** and **Group Owner** ownerships are working as expected.  
+The **Set GID** special permission is also working as expected. </br>  
 <img width="955" height="528" alt="image" src="https://github.com/user-attachments/assets/7b353d65-97ae-4636-96ee-b2277f8d9414" />  
 
 The user **as** who is the IT Manager is also able to change to the infodocs directory, list contents, navigate through sub-directories, create new files, read and write to files. </br>  

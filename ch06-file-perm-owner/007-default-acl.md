@@ -43,3 +43,7 @@ The **Set GID** special permission is also working as expected. </br>
 
 The user **as** who is the IT Manager is also able to change to the infodocs directory, list contents, navigate through sub-directories, create new files, read and write to files. </br>  
 <img width="955" height="363" alt="image" src="https://github.com/user-attachments/assets/6cf35e25-6b0d-4811-bf10-82dd8aeb3010" />  
+
+## Access ACL, Default ACL, and Effective Permissions  
+<img width="494" height="757" alt="Screenshot From 2026-10-26 22-04-05" src="https://github.com/user-attachments/assets/73353892-b950-4609-b58e-eb96d43ecc82" />  
+<img width="492" height="469" alt="Screenshot From 2026-10-26 22-04-52" src="https://github.com/user-attachments/assets/3ad8f1f2-b1a2-417b-8a00-b87a1c77d7da" />  

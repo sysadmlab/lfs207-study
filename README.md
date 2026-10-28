@@ -73,3 +73,7 @@ Chapter 31. System Init: systemd History and Customization
 Chapter 32. Backup and Recovery Methods  
 Chapter 33. Linux Security Modules  
 Chapter 34. System Rescue  
+
+### Footnote  
+I have avoided including screenshots of the course material because it is copyrighted and owned by The Linux Foundation.  
+If by chance, there's a screenshot of course material, it is plainly an oversight from my end and not intentional.  

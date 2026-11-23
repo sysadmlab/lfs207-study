@@ -51,4 +51,4 @@ The file **net-tools_2.10-0.1ubuntu4.4.dsc** is the **Debian Source Control** fi
 
 The **upstream** source code tarball and the ubuntu.debian tarball could have been published/updated at different times. <br>  
 <img width="889" height="522" alt="Screenshot From 2026-11-23 08-14-12" src="https://github.com/user-attachments/assets/d9a6d2ef-ec74-42e0-89d3-2d5ae1750858" />  
-The image above shows that the source code was published earlier and the ubuntu.debian file was re-published much later.  
+The image above shows that the source code was published earlier and the ubuntu.debian file was re-published much later - denoted by the **modify** time.  

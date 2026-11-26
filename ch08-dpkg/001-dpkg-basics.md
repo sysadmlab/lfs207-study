@@ -52,3 +52,15 @@ The file **net-tools_2.10-0.1ubuntu4.4.dsc** is the **Debian Source Control** fi
 The **upstream** source code tarball and the ubuntu.debian tarball could have been published/updated at different times. <br>  
 <img width="889" height="522" alt="Screenshot From 2026-11-23 08-14-12" src="https://github.com/user-attachments/assets/d9a6d2ef-ec74-42e0-89d3-2d5ae1750858" />  
 The image above shows that the source code was published earlier and the ubuntu.debian file was re-published much later - denoted by the **modify** time.  
+
+## dpkg -l and dpkg -s commands  
+The command **dpkg -l btop** lists the package **btop** and its state and other details in a concise format. Without an argument, the command would list all packages and their states. <br>  
+<img width="1256" height="190" alt="image" src="https://github.com/user-attachments/assets/e05fa700-8ab9-4066-ab03-1a3d6c03cda0" />  
+The command **dpkg -s btop** provides more information about a package such as - Status, Architecture, Version, Description, and so on in an elaborate manner. <br>  
+<img width="952" height="699" alt="image" src="https://github.com/user-attachments/assets/a431289f-9fe6-4230-b3e9-57cce25524f0" />  
+In the case of **dpkg -l btop** the **Status** is **ii** and in the case of **dpkg -s btop** the **Status** is **install ok installed**. <br>  
+The **install ok installed** is actually three columns:  
+1. The first **install** is called the **Desired State** and **install** is one of the possible values for this column.  
+2. The **ok** is the **Error Flag** column. The other value for this column can be **reinstreq** meaning **Reinstall Required**.  
+3. The third column **installed** is the **Current State** of the package, and **installed** is one of the possible values for this column.  
+
